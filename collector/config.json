@@ -1,6 +1,7 @@
 {
   "userAgent": "Mozilla/5.0 (compatible; BoothAtlasBot/1.0; +https://github.com/javingsu/booth-atlas)",
   "relevance": "부스|전시|박람회|엑스포|expo|booth|홍보관|팝업|학술대회|학회|쇼룸|exhibit|trade\\s*show|ブース|展示",
+  "exclude": "홈페이지\\s*주소|공장\\s*소식|채용\\s*공고|휴무|공지사항|이벤트\\s*당첨|ロゴ$|로고$|\\blogo$",
   "maxNewPerSource": 30,
   "ogBackfillPerRun": 25,
   "ogRetryDays": 30,

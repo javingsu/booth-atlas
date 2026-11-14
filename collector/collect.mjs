@@ -68,6 +68,7 @@ export async function run({ fetchImpl = globalThis.fetch, libPath = path.join(RO
   const ua = cfg.userAgent;
   const getText = (u) => fetchWithTimeout(fetchImpl, u, { ua });
   const relevance = new RegExp(cfg.relevance, 'i');
+  const exclude = cfg.exclude ? new RegExp(cfg.exclude, 'i') : null;
   lib.items = lib.items || [];
   lib.categories = lib.categories || [];
   const listingUrls = [...cfg.sources.filter((s) => s.listing).map((s) => s.url), ...cfg.linkOnly.map((s) => s.url)];
@@ -90,6 +91,7 @@ export async function run({ fetchImpl = globalThis.fetch, libPath = path.join(RO
         const cand = { ...c, title: (src.titlePrefix || '') + String(c.title || '').trim(), url: cleanUrl(c.url), image: c.image || '' };
         if (!cand.title || !/^https:/i.test(cand.url)) continue;
         if ((src.type === 'feed' || src.requireRelevance) && !relevance.test(cand.title + ' ' + (cand.text || ''))) continue;
+        if (exclude && exclude.test(cand.title)) continue;
         const dup = findDuplicate(lib.items, cand, listingUrls);
         if (dup) {
           if (!dup.image && cand.image) { dup.image = cand.image; updated++; }
@@ -118,6 +120,16 @@ export async function run({ fetchImpl = globalThis.fetch, libPath = path.join(RO
     sourceStatus.push({ name: src.name, url: src.url, status, count: 0, _rule: src.count, newThisRun: fresh });
   }
 
+  // 자동 분류 자료 재정리: 직접 정리하지 않은 자료는 개선된 규칙을 다시 적용
+  let reclassified = 0;
+  for (const x of lib.items) {
+    if (x.manual || x.deleted || added.includes(x)) continue;
+    const c = classify(x.title, '', x.category);
+    const cat = resolveCategory(c.category, lib.categoryAliases, lib.categories);
+    if (cat !== x.category || x.review !== !c.confident) { x.category = cat; x.review = !c.confident; reclassified++; }
+  }
+  if (reclassified) { updated += reclassified; log(`· 자동 분류 재정리 ${reclassified}건`); }
+
   // 이미지 없는 자료: 원문 대표 이미지(og:image) 보충
   const skip = cfg.ogSkipHosts || [];
   const retryMs = (cfg.ogRetryDays || 30) * DAY;
@@ -125,7 +137,7 @@ export async function run({ fetchImpl = globalThis.fetch, libPath = path.join(RO
   let ogFilled = 0;
   for (const x of needOg) {
     try {
-      const html = await getText(x.url);
+      const html = await getText(x.url.replace(/^https:\/\/blog\.naver\.com\//, 'https://m.blog.naver.com/'));
       const og = parseOgImage(html, x.url);
       if (og) { x.image = og; x.imageFrom = 'og'; ogFilled++; updated++; }
     } catch (e) { /* 원문 접근 실패는 링크 자료로 유지 */ }

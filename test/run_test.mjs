@@ -108,6 +108,13 @@ await t('변경 기록 적용 (사이트·워크플로 공용)', () => {
   assert.equal(results[6].ok, false);
   assert.equal(results[7].ok, false);
   assert.equal(applied.length, 8);
+  const s2 = { categories: ['미분류'], tags: [], items: [{ id: 'y', title: 'Y', url: 'https://y.com/1', image: '', phash: 'aa', category: '미분류', createdAt: '2026-01-01' }] };
+  applyOps(s2, [{ cid: 'i1', op: 'edit', id: 'y', set: { image: 'http://insecure.jpg' } }]);
+  assert.equal(s2.items[0].image, '');
+  applyOps(s2, [{ cid: 'i2', op: 'edit', id: 'y', set: { image: 'https://y.com/a.jpg' } }]);
+  assert.equal(s2.items[0].image, 'https://y.com/a.jpg');
+  assert.equal(s2.items[0].phash, undefined);
+  assert.equal(classify('왜 글로벌 브랜드는 패브릭 솔루션에 주목하는가?').category, '정보성');
 });
 
 await t('파서', () => {
@@ -128,7 +135,9 @@ await t('파서', () => {
 await t('수집기 통합 (실제 라이브러리 사본 + 가짜 fetch)', async () => {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'atlas-'));
   const libPath = path.join(dir, 'library.json');
-  fs.copyFileSync(path.join(ROOT, 'data/library.json'), libPath);
+  const seed = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/library.json'), 'utf8'));
+  for (const x of seed.items) delete x.ogTriedAt;
+  fs.writeFileSync(libPath, JSON.stringify(seed));
   const before = JSON.parse(fs.readFileSync(libPath, 'utf8'));
   const noImg = before.items.filter((x) => !x.deleted && !x.image);
   const ogTarget = noImg.find((x) => /tn-trussing/.test(x.url));
@@ -209,8 +218,10 @@ await t('이슈 반영: 소유자 레퍼런스 추가 / 변경 반영 / 타인 �
 
 await t('기존 자료 무결성', () => {
   const lib = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/library.json'), 'utf8'));
-  assert.equal(lib.items.length, 259);
-  assert.equal(buildGroups(lib.items).length, 255);
+  assert.ok(lib.items.length >= 259);
+  const migrated = lib.items.filter((x) => x.createdAt < '2026-11-10');
+  assert.equal(migrated.length, 259);
+  assert.equal(buildGroups(migrated).length, 255);
   const ids = new Set(lib.items.map((x) => x.id));
   assert.equal(ids.size, lib.items.length);
   for (const x of lib.items) {

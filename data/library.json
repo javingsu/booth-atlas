@@ -137,9 +137,9 @@
  "runs": [
   {
    "at": "2026-11-14T18:53:21.168Z",
-   "added": 44,
+   "added": 41,
    "updated": 0,
-   "total": 303,
+   "total": 300,
    "errors": []
   },
   {
@@ -6008,23 +6008,6 @@
    "hashAlgo": "dhash256"
   },
   {
-   "id": "bc17261a-8405-4786-9295-3cacec05bb19",
-   "title": "[전시회부스] 비엠에스 홈페이지 주소",
-   "url": "https://blog.naver.com/bmsplan/223550314077",
-   "image": "",
-   "source": "네이버 블로그",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-14T18:53:21.168Z",
-   "separateFrom": [],
-   "publishedAt": "2024-08-16T12:24:03.000Z",
-   "ogTriedAt": "2026-11-14T18:53:21.168Z"
-  },
-  {
    "id": "11b21dc9-e74f-4ae8-a0a3-9bf21854c49f",
    "title": "전시부스 - 이마트24 - 2부스 ( 수원시&스타필드 수원상생채용박람회 2023.10.27 / 수원메쎄)",
    "url": "https://blog.naver.com/bmsplan/223332255728",
@@ -6117,30 +6100,6 @@
     124,
     125,
     124
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "57a95254-2db3-4b9a-99a3-1585854a6b1f",
-   "title": "GROUP MCO 공장 소식 | 엡손 헤드 6색 실사출력·3.2m 장폭 UV 장비 도입",
-   "url": "https://blog.naver.com/groupmco88/224454081390",
-   "image": "https://blogthumb.pstatic.net/MjAyNjEwMjZfMTQz/MDAxNzkyOTg5MzE5MTI2.ktBc5dAVXBf-7PTrG6ZWGgHf3DxHMHvQQEahHh1g03Ig._n3kbm_09X1SdMjkDshX0hrh0KS7zyXtbtLqMe3kCf0g.JPEG/six-color-printer-01.jpg?type=s3",
-   "source": "네이버 블로그",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-14T18:53:21.168Z",
-   "separateFrom": [],
-   "publishedAt": "2026-10-28T01:00:00.000Z",
-   "sha256": "3cf8030b0211897c838d2543eaedc8448a1647525bf89ab583e07689d776094c",
-   "phash": "e188e198e1996589e58ded8dce878c13cd31ed32fc64fd6836721e700d9e02ce",
-   "color": [
-    126,
-    114,
-    103
    ],
    "hashAlgo": "dhash256"
   },
@@ -6414,12 +6373,12 @@
    "url": "https://blog.naver.com/dimca/224168905103",
    "image": "https://blogthumb.pstatic.net/MjAyNjAyMDJfOTMg/MDAxNzcwMDEzMTQxMzIx._1ZaGkq4zdbe5c8lA5_VCwDzTkDXcvRAS5LzWn0VDKog.P2404vDUf01NyjYCOnKLPuL9IEvLAa277Tfzjo4yjw4g.JPEG/KakaoTalk_20251203_180418975_01.jpg?type=s3",
    "source": "네이버 블로그",
-   "category": "기본부스",
+   "category": "정보성",
    "tags": [],
    "note": "",
    "favorite": false,
    "manual": false,
-   "review": false,
+   "review": true,
    "createdAt": "2026-11-14T18:53:21.168Z",
    "separateFrom": [],
    "publishedAt": "2026-02-02T07:36:36.000Z",
@@ -6549,29 +6508,6 @@
     250,
     250,
     250
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "77735d9f-a7eb-415b-b8c6-5cd4a5e27483",
-   "title": "パーセク株式会社ロゴ",
-   "url": "https://exhibition-booth.com/%e9%81%8b%e5%96%b6%e4%bc%9a%e7%a4%be%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/",
-   "image": "https://exhibition-booth.com/wp-content/uploads/persec.svg",
-   "source": "EX Booth",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-14T18:53:21.168Z",
-   "separateFrom": [],
-   "sha256": "59082245cb14a836c5ce7dbbacc8cb19c86e5b4e14208220fb3a75380da338be",
-   "phash": "600050003400108028803ada986a19ab9d129d18be009d009a009a0094001000",
-   "color": [
-    11,
-    19,
-    31
    ],
    "hashAlgo": "dhash256"
   },
