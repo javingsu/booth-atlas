@@ -1,7 +1,7 @@
 {
  "version": 2,
- "revision": 98,
- "updatedAt": "2026-11-14T18:53:21.168Z",
+ "revision": 99,
+ "updatedAt": "2026-11-14T18:58:39.667Z",
  "migratedFrom": {
   "origin": "https://booth-atlas-studio.brawnylyric38.chatgpt.site",
   "exportedAt": "2026-11-14T18:37:23.155Z",
@@ -31,22 +31,22 @@
    "name": "네이버 RSS · bmsplan",
    "url": "https://rss.blog.naver.com/bmsplan.xml",
    "status": "공개 RSS 확인 · 이미지가 없으면 원문 링크",
-   "count": 50,
-   "newThisRun": 2
+   "count": 49,
+   "newThisRun": 0
   },
   {
    "name": "네이버 RSS · groupmco88",
    "url": "https://rss.blog.naver.com/groupmco88.xml",
    "status": "공개 RSS 확인 · 이미지가 없으면 원문 링크",
-   "count": 15,
-   "newThisRun": 4
+   "count": 14,
+   "newThisRun": 0
   },
   {
    "name": "네이버 RSS · epicdesigngroup_01",
    "url": "https://rss.blog.naver.com/epicdesigngroup_01.xml",
    "status": "공개 RSS 확인 · 이미지가 없으면 원문 링크",
    "count": 54,
-   "newThisRun": 3
+   "newThisRun": 0
   },
   {
    "name": "네이버 RSS · lf-exhibition",
@@ -60,28 +60,28 @@
    "url": "https://rss.blog.naver.com/dimca.xml",
    "status": "공개 RSS 확인 · 이미지가 없으면 원문 링크",
    "count": 50,
-   "newThisRun": 9
+   "newThisRun": 0
   },
   {
    "name": "부스 시공 블로그",
    "url": "https://kjoung99.tistory.com/rss",
    "status": "공개 RSS 확인",
    "count": 7,
-   "newThisRun": 5
+   "newThisRun": 0
   },
   {
    "name": "EX Booth",
    "url": "https://exhibition-booth.com/category/designexamples/",
    "status": "공개 포트폴리오 확인",
-   "count": 11,
-   "newThisRun": 1
+   "count": 10,
+   "newThisRun": 0
   },
   {
    "name": "전시기획틈",
    "url": "https://www.exteum.com/",
    "status": "공개 포트폴리오 확인",
    "count": 38,
-   "newThisRun": 17
+   "newThisRun": 0
   },
   {
    "name": "Blue Point",
@@ -95,7 +95,7 @@
    "url": "https://fmbuild.co.kr/",
    "status": "옥타 부스 사진 확인",
    "count": 6,
-   "newThisRun": 3
+   "newThisRun": 0
   },
   {
    "name": "빌드만 · 블럭",
@@ -135,6 +135,13 @@
   }
  ],
  "runs": [
+  {
+   "at": "2026-11-14T18:58:39.667Z",
+   "added": 0,
+   "updated": 0,
+   "total": 300,
+   "errors": []
+  },
   {
    "at": "2026-11-14T18:53:21.168Z",
    "added": 41,
@@ -4286,7 +4293,8 @@
    "manual": true,
    "review": false,
    "createdAt": "2026-10-29T05:40:54.834Z",
-   "separateFrom": []
+   "separateFrom": [],
+   "ogTriedAt": "2026-11-14T18:58:39.667Z"
   },
   {
    "id": "a1df21e8-7b04-44dc-a1f1-87926bd22d6d",
