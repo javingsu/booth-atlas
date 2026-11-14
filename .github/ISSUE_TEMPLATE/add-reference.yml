@@ -1,0 +1,44 @@
+name: 레퍼런스 추가
+description: BOOTH ATLAS에 참고할 부스 사례를 추가합니다 (저장소 소유자만 자동 반영).
+title: "[레퍼런스 추가] "
+labels: ["add-reference"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: 제목
+      placeholder: "예: KIMES 2026 OO메디칼 목공부스"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 원문 링크 (https://)
+      placeholder: "https://"
+    validations:
+      required: true
+  - type: input
+    id: image
+    attributes:
+      label: 이미지 주소 (선택)
+      description: 이미지를 우클릭 → 이미지 주소 복사. 비워두면 다음 수집 때 원문 대표 이미지를 찾아봅니다.
+  - type: dropdown
+    id: category
+    attributes:
+      label: 부스 카테고리
+      options: ["목공부스", "블럭부스", "기본부스", "트러스부스", "컨퍼런스", "복합·기타", "미분류", "정보성"]
+      default: 6
+  - type: input
+    id: tags
+    attributes:
+      label: 참고 용도 (쉼표로 구분, 선택)
+      placeholder: "타워 참고, 조명 참고"
+  - type: input
+    id: source
+    attributes:
+      label: 출처 이름 (선택)
+      placeholder: "비워두면 링크의 도메인"
+  - type: textarea
+    id: note
+    attributes:
+      label: 참고할 점 (선택)

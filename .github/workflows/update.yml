@@ -1,0 +1,94 @@
+name: BOOTH ATLAS 자동 업데이트
+
+on:
+  schedule:
+    - cron: '7 0 * * 1'      # 매주 월요일 09:07 (한국 시간 = UTC+9)
+  workflow_dispatch:         # Actions 탭에서 'Run workflow'로 바로 수집
+  issues:
+    types: [opened]          # 사이트의 '레퍼런스 추가'·'GitHub에 반영'
+  push:
+    branches: [main]
+    paths: ['index.html', 'lib/**', 'data/**', '.github/workflows/update.yml']
+
+permissions:
+  contents: write   # data/library.json 저장
+  pages: write      # GitHub Pages 배포
+  id-token: write
+  issues: write     # 이슈 답글·닫기
+
+concurrency:
+  group: booth-atlas-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    # 이슈는 저장소 소유자가 연 것만 처리
+    if: github.event_name != 'issues' || github.event.issue.author_association == 'OWNER'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: 이슈 라벨 준비
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create add-reference --color 397c59 --description "사이트에 레퍼런스 추가" --force || true
+          gh label create apply-changes --color a3c6b1 --description "사이트에서 만든 변경 반영" --force || true
+
+      - name: 이미지 지문 도구 설치
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
+        continue-on-error: true
+        run: npm install --no-save --no-package-lock --no-audit --no-fund sharp@0.33.5
+
+      - name: 레퍼런스 수집
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
+        run: node collector/collect.mjs
+
+      - name: 이슈 반영
+        id: issue
+        if: github.event_name == 'issues'
+        env:
+          REPO_OWNER: ${{ github.repository_owner }}
+        run: node collector/apply-issue.mjs
+
+      - name: 수집 결과 저장
+        run: |
+          git config user.name "booth-atlas-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/library.json
+          if ! git diff --cached --quiet; then
+            git commit -m "레퍼런스 자동 업데이트 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M')"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: 이슈 답글·닫기
+        if: always() && github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          if [ -f issue-reply.md ]; then gh issue comment "$ISSUE" --body-file issue-reply.md; fi
+          if [ -f issue-close ]; then gh issue close "$ISSUE" --reason completed; fi
+
+      - name: 사이트 파일 준비
+        run: |
+          mkdir -p _site
+          cp -r index.html lib data _site/
+          touch _site/.nojekyll
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4

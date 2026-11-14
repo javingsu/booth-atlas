@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: BOOTH ATLAS 사이트
+    url: https://javingsu.github.io/booth-atlas/
+    about: 사이트에서 분류·즐겨찾기·메모를 바꾼 뒤 ‘GitHub에 반영’을 누르면 변경 이슈가 자동으로 만들어집니다.
