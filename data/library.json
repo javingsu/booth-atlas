@@ -1,7 +1,7 @@
 {
  "version": 2,
- "revision": 101,
- "updatedAt": "2026-11-15T04:18:25.761Z",
+ "revision": 102,
+ "updatedAt": "2026-11-15T04:21:35.093Z",
  "migratedFrom": {
   "origin": "https://booth-atlas-studio.brawnylyric38.chatgpt.site",
   "exportedAt": "2026-11-14T18:37:23.155Z",
@@ -102,14 +102,14 @@
    "url": "https://rss.blog.naver.com/seouladcom88.xml",
    "status": "공개 RSS 확인 · 서울부스애드컴",
    "count": 50,
-   "newThisRun": 20
+   "newThisRun": 0
   },
   {
    "name": "프로디자인그룹",
    "url": "https://pro-design.co.kr/main/main.html",
    "status": "공개 포트폴리오 확인",
-   "count": 30,
-   "newThisRun": 30
+   "count": 55,
+   "newThisRun": 25
   },
   {
    "name": "뚝딱제작소",
@@ -123,12 +123,12 @@
    "url": "https://d-onworks.com/portfolio",
    "status": "공개 포트폴리오 확인",
    "count": 60,
-   "newThisRun": 30
+   "newThisRun": 0
   },
   {
    "name": "Uniplan",
    "url": "https://www.uniplan.com/work",
-   "status": "공개 포트폴리오 확인",
+   "status": "공개 포트폴리오 확인 · 이미지는 사례 페이지 대표 이미지",
    "count": 6,
    "newThisRun": 0
   },
@@ -144,7 +144,7 @@
    "url": "https://www.dezeen.com/tag/exhibition-design/feed/",
    "status": "공개 RSS 확인 · 박람회 부스·전시 공간 기사만",
    "count": 7,
-   "newThisRun": 4
+   "newThisRun": 0
   },
   {
    "name": "빌드만 · 블럭",
@@ -184,6 +184,13 @@
   }
  ],
  "runs": [
+  {
+   "at": "2026-11-15T04:21:35.093Z",
+   "added": 25,
+   "updated": 6,
+   "total": 512,
+   "errors": []
+  },
   {
    "at": "2026-11-15T04:18:25.761Z",
    "added": 84,
@@ -9236,7 +9243,7 @@
    "id": "9aaf33ac-7a2d-43e2-a2ac-85d6ab3c9945",
    "title": "Hama IFA 2026",
    "url": "https://www.uniplan.com/work/en-hama-ifa-2026",
-   "image": "",
+   "image": "https://cms.uniplan.com/images/XlULMaSc44x7XvIqMsUo4DI-OEU=/1973/width-600/hama_ifa2026_101.jpg",
    "source": "Uniplan",
    "category": "목공부스",
    "tags": [],
@@ -9246,13 +9253,23 @@
    "review": true,
    "createdAt": "2026-11-15T04:14:26.304Z",
    "separateFrom": [],
-   "categoryFrom": "source"
+   "categoryFrom": "source",
+   "imageFrom": "og",
+   "ogTriedAt": "2026-11-15T04:21:35.093Z",
+   "sha256": "dffd155f311eba072b539d65f50ba062aa73fa582ae1d8191ed8f8825785281f",
+   "phash": "2a6399a621b226f606718cb9aefab75da69da65ce6dbc7918694869297129343",
+   "color": [
+    90,
+    79,
+    83
+   ],
+   "hashAlgo": "dhash256"
   },
   {
    "id": "a53434fe-5b1a-4ecc-b644-86d3d046bcca",
    "title": "Roborock IFA 2026",
    "url": "https://www.uniplan.com/work/en-roborock-ifa-2026",
-   "image": "",
+   "image": "https://cms.uniplan.com/images/gYDTrBeIAimsUK5RWMXFyUqnIMc=/1998/width-600%7Cformat-jpeg/roborock06.png",
    "source": "Uniplan",
    "category": "목공부스",
    "tags": [],
@@ -9262,13 +9279,23 @@
    "review": true,
    "createdAt": "2026-11-15T04:14:26.304Z",
    "separateFrom": [],
-   "categoryFrom": "source"
+   "categoryFrom": "source",
+   "imageFrom": "og",
+   "ogTriedAt": "2026-11-15T04:21:35.093Z",
+   "sha256": "1dd83b7a42be5dd0d0ae1c62b5e451c13d312df7c4eca38c5541f5b81d86e4de",
+   "phash": "0d3186fa8cb119c231e24c7483c3ae230c3a26c0268e060f0e0f12cccc4f0783",
+   "color": [
+    93,
+    87,
+    88
+   ],
+   "hashAlgo": "dhash256"
   },
   {
    "id": "6fbc6b80-d675-45ae-9265-76bedd62657d",
    "title": "Aeg IFA 2026",
    "url": "https://www.uniplan.com/work/en-aeg-ifa-2026",
-   "image": "",
+   "image": "https://cms.uniplan.com/images/lFTM7o6ssagdssPejasNJ7-wyQ0=/1982/width-600/WEB-AEG_ElectroluxIFA2026-0152-PhotoSaskiaUppenkamp.jpg",
    "source": "Uniplan",
    "category": "목공부스",
    "tags": [],
@@ -9278,13 +9305,23 @@
    "review": true,
    "createdAt": "2026-11-15T04:14:26.304Z",
    "separateFrom": [],
-   "categoryFrom": "source"
+   "categoryFrom": "source",
+   "imageFrom": "og",
+   "ogTriedAt": "2026-11-15T04:21:35.093Z",
+   "sha256": "29d2644cfc10a7ee98a2d1333e80302c54d471aec09ab1d7f14f36c9fcdf0f7d",
+   "phash": "333c3931cb20e7992799069e671ee47514e916ec16cc9ace981e9e1e1c1efc0e",
+   "color": [
+    42,
+    23,
+    22
+   ],
+   "hashAlgo": "dhash256"
   },
   {
    "id": "0f7177e8-542f-4ac4-93ec-0a7aeb5b8077",
    "title": "Anker IFA 2026",
    "url": "https://www.uniplan.com/work/en-anker-ifa-2026",
-   "image": "",
+   "image": "https://cms.uniplan.com/images/eTIyVKEWjGfUDaO6OvMAOqaMhjY=/2011/width-600/anker10.jpg",
    "source": "Uniplan",
    "category": "목공부스",
    "tags": [],
@@ -9294,13 +9331,23 @@
    "review": true,
    "createdAt": "2026-11-15T04:14:26.304Z",
    "separateFrom": [],
-   "categoryFrom": "source"
+   "categoryFrom": "source",
+   "imageFrom": "og",
+   "ogTriedAt": "2026-11-15T04:21:35.093Z",
+   "sha256": "4b7050aab1dd6afa68d346561f8710efe5cab9b2ec3859bbd2d0e01e9212c0e2",
+   "phash": "95b22ce0a7a45831a31905ca91606c60ac4a706b66a663e3c36b34b77e614c61",
+   "color": [
+    66,
+    95,
+    127
+   ],
+   "hashAlgo": "dhash256"
   },
   {
    "id": "7616a6a5-b10d-4357-a81a-b4fca2369a3f",
    "title": "Oppo Lol World Championship Chengdu Booth",
    "url": "https://www.uniplan.com/work/en-oppo-lol-world-championship-chengdu-booth",
-   "image": "",
+   "image": "https://cms.uniplan.com/images/W2RWjMqhsxcmxPuLydZCQZWpShw=/1870/width-600/21355729.jpg",
    "source": "Uniplan",
    "category": "목공부스",
    "tags": [],
@@ -9310,13 +9357,23 @@
    "review": true,
    "createdAt": "2026-11-15T04:14:26.304Z",
    "separateFrom": [],
-   "categoryFrom": "source"
+   "categoryFrom": "source",
+   "imageFrom": "og",
+   "ogTriedAt": "2026-11-15T04:21:35.093Z",
+   "sha256": "225bb7f12a385bced3bae46d43fcc7758c92c0d3a88cabb0a13af74a9f0352ff",
+   "phash": "34e334ab35ab38a9f661ae212e3176716520799279b00318254881987c0eaf80",
+   "color": [
+    137,
+    139,
+    142
+   ],
+   "hashAlgo": "dhash256"
   },
   {
    "id": "bd5122ed-7474-4d6c-a872-d5c625fd683d",
    "title": "Hisense CES",
    "url": "https://www.uniplan.com/work/en-hisense-ces",
-   "image": "",
+   "image": "https://www.uniplan.com/images/social.jpg",
    "source": "Uniplan",
    "category": "목공부스",
    "tags": [],
@@ -9327,7 +9384,10 @@
    "createdAt": "2026-11-15T04:14:26.304Z",
    "separateFrom": [],
    "dupOf": "0f7177e8-542f-4ac4-93ec-0a7aeb5b8077",
-   "categoryFrom": "source"
+   "categoryFrom": "source",
+   "imageFrom": "og",
+   "ogTriedAt": "2026-11-15T04:21:35.093Z",
+   "hashTriedAt": "2026-11-15T04:21:35.093Z"
   },
   {
    "id": "16727079-0890-4032-8b71-602a9f3ef546",
@@ -11451,6 +11511,582 @@
     63,
     46,
     41
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "c5e1ca35-5fc5-455a-b8a9-f3a241d98287",
+   "title": "2026 서울청년정책박람회",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=714",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/714/20260722132020_1_KakaoTalk_20260720_103233454_25.jpg",
+   "source": "프로디자인그룹",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "41683219562b2bdf0a9f39c531fc1fa7af8591422921e68e7ccfd8544f152c66",
+   "phash": "011850390dabd34b52523096b49ed386da69c461ca61e0633c4dfe49b6c37c5a",
+   "color": [
+    174,
+    173,
+    165
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "df1ff766-3500-4051-ad38-221462fb935d",
+   "title": "2026 스마트 테크 코리아 - Similarweb 독립부스",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=667",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/667/20260623140043_1_%EC%8B%9C%EB%AF%B8%EB%9F%B4%EC%9B%B9_2.jpg",
+   "source": "프로디자인그룹",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "97340c52e1a55f06f59d2c4ef728646437017db1ec1f89da17bc34bbc009396b",
+   "phash": "63c4ce0a7079c184d58dc489ec0cd58cc9bd4cbd66dcfbc09fc047c023e14e69",
+   "color": [
+    139,
+    135,
+    133
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "e545da4e-7188-4a18-8f57-560471cf7861",
+   "title": "2026 소부장뿌리기술대전 충북테크노파크 목공부스",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=787",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/787/20261028160237_1_%EC%B6%A9%EB%B6%81%ED%85%8C%ED%81%AC%EB%85%B8%ED%8C%8C%ED%81%AC_1.jpg",
+   "source": "프로디자인그룹",
+   "category": "목공부스",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": false,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "dfc17cb6c92fcce9c2a64cd1b2460b2bbb29bed4ff9ce7e28c6603cbedbf0987",
+   "phash": "e23a886cc46502669e6a937291b49c19b799979b90cfb60c964936183710b350",
+   "color": [
+    116,
+    133,
+    129
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "bff3d36a-fc65-4986-99ad-fba4d022bcf1",
+   "title": "2026 소부장뿌리기술대전 디스플레이 특화단지관 목공부스",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=785",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/785/20261028155736_1_%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%20%ED%8A%B9%ED%99%94%EB%8B%A8%EC%A7%80%EA%B4%80_1.jpg",
+   "source": "프로디자인그룹",
+   "category": "목공부스",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": false,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "95c02307c5bb67117d5fb7fb3a548618d3f8ec901b4ff34c8a8da4a78da6c97f",
+   "phash": "47000d9694f4243f0cce1e17163f467f564e166626462eccacc92c06ac18a6ca",
+   "color": [
+    130,
+    129,
+    135
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "8f9d9b79-5591-4409-93f9-7f43c535447c",
+   "title": "2026 소부장뿌리기술대전 경남홍보관 목공부스",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=783",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/783/20261028155059_1_%EA%B2%BD%EB%82%A8%ED%99%8D%EB%B3%B4%EA%B4%80_1.jpg",
+   "source": "프로디자인그룹",
+   "category": "목공부스",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": false,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "7b07a019c7af96bbb669aef6835c3b58a87c42b1a13cbbd4ed64f5f5b4964e67",
+   "phash": "96f28cd31e46179695f690f6920993089330156cd5c992c8b3ca9b89bb0c9e03",
+   "color": [
+    125,
+    114,
+    121
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "8ad13f64-40bf-4156-9c0d-ecb946336e66",
+   "title": "2026 소부장뿌리기술대전 FITI 시험연구원 목공부스",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=782",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/782/20261028154241_1_FITI_2.jpg",
+   "source": "프로디자인그룹",
+   "category": "목공부스",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": false,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "2fdf2199e02f30c9ab90ed626836ea9c956e44b9c50f127958ca8823cf21ee08",
+   "phash": "69a635e690ecdce84c5575450d078c7cf0a6822a86298c28803889aea872c0f8",
+   "color": [
+    97,
+    107,
+    116
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "d69db87e-f725-4512-be1e-fb21a49955dd",
+   "title": "2026 푸드위크코리아 조립부스",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=800",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/800/20261111093518_1_%EC%A1%B0%EB%A6%BD%EB%B6%80%EC%8A%A42.jpg",
+   "source": "프로디자인그룹",
+   "category": "기본부스",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": false,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "42dfc35dbbf177afbb6885a03f202dc61af5a760bb003896900c63b2ff615c2a",
+   "phash": "3a5969c1cc66dd84c1b611fbadd3b73485bc15f4dd6c1b6e1ab93490cc4f104b",
+   "color": [
+    136,
+    131,
+    124
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "1069b9ff-8cbf-470c-9107-07a023f5df04",
+   "title": "2026 BCWW 조립부스",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=762",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/762/20260915112352_1_IMG_4640.jpg",
+   "source": "프로디자인그룹",
+   "category": "기본부스",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": false,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "87fec6092ea89b4a2499ad9428685354f72c8c1b6911077528d1f6d5f857620c",
+   "phash": "9e0798e51979391c79d33897309d766b368b5609e419349d9c994f181e067073",
+   "color": [
+    146,
+    143,
+    147
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "001ab07b-db53-43e8-9817-d3fea71e6c52",
+   "title": "2026 올댓트레블 맥시마부스",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=609",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/609/20260506104049_1_%EB%A7%A5%EC%8B%9C%EB%A7%88%EB%B6%80%EC%8A%A43.jpg",
+   "source": "프로디자인그룹",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "ec28f21824e63298708697bc23bc9982faf6b95a2ac33b990e149ce2bee62f4d",
+   "phash": "349878c9c37a861e36162c86aade26df0ecf38e7f0c4f4c23cc34e8a1b202640",
+   "color": [
+    143,
+    133,
+    116
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "24e330f3-b612-4995-ab24-a7038e6d938f",
+   "title": "2026 커피 엑스포",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=595",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/595/20260428110643_1_%EC%BB%A4%ED%94%BC%20%ED%98%84%EC%88%98%EB%A7%893.jpg",
+   "source": "프로디자인그룹",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "cd9ddb05af964fa107c8b2371af6204ce21f95993d0196ae51090c529d129e20",
+   "phash": "8eb0c61c27b304b29c9f18cf359db59834b30eb62c8c6c8c6c886c862cbe25a9",
+   "color": [
+    128,
+    130,
+    142
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "c4f4d56f-441e-4d0a-85bb-8d483ec1e33a",
+   "title": "2026 스마트 테크 코리아 - 스테이지 부대시설",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=671",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/671/20260623141353_1_%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80%20R%20%EB%B6%80%EB%8C%80%EC%8B%9C%EC%84%A4_1.jpg",
+   "source": "프로디자인그룹",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "47b9573dfc25ad3a84e42f902dca414a3aef28d3d4f167edf93bbe9e14bad4f3",
+   "phash": "49b9e1b17c094f19dbe1007db017bb3abb6ae6eee6189f80c384c1b862434d81",
+   "color": [
+    163,
+    166,
+    145
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "92da4867-f7f9-465b-97a6-266c7b89d69a",
+   "title": "2026 스마트 테크 코리아 - 라운지",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=670",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/670/20260623141134_1_%EA%B8%80%EB%A1%9C%EB%B2%8C%20%EB%B0%94%EC%9D%B4%EC%96%B4%20%EB%9D%BC%EC%9A%B4%EC%A7%80_1.jpg",
+   "source": "프로디자인그룹",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "213374285b8048d783e6d00045d3120d88a6752c40da0a916e48389eb696f986",
+   "phash": "318ccaccf6d9bb4a83c20275706161e24367cb19e090e013401f807c13e06f80",
+   "color": [
+    163,
+    125,
+    121
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "6522b5a0-8102-4c28-995f-57c43578c764",
+   "title": "AX 비즈 커넥트 라운지",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=669",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/669/20260623141048_1_AX%20%EB%B9%84%EC%A6%88%20%EC%BB%A4%EB%84%A5%ED%8A%B8%20%EB%9D%BC%EC%9A%B4%EC%A7%80_1.jpg",
+   "source": "프로디자인그룹",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "1895da7ae43b79929a3c3cb86e80c16a4880d9beb07102cfcf6285f00453cc10",
+   "phash": "9b71cd95b6bd4ed9937c95d4b05cb5fcb5fc77fc1e3c878c81f4c13c9b4e9ec1",
+   "color": [
+    152,
+    137,
+    99
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "90f14500-e6c6-47d8-86d1-04c3d82a453e",
+   "title": "2026 올댓트레블 비즈니스 커넥팅 존",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=614",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/614/20260506104508_1_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%20%EC%BB%A4%EB%84%A5%ED%8A%B8%20%EC%A1%B43.jpg",
+   "source": "프로디자인그룹",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "c8fdb5888e9faebc51ce2d60da984385bfa1da44a8cc29288fa142a3081d8845",
+   "phash": "f96ef23f633c6344f314eb1c2d0da72964a92df2ed6ae578d5c366093039f1bc",
+   "color": [
+    153,
+    131,
+    109
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "f7cdd9e1-f0a3-4dcb-96d6-2a96492e072f",
+   "title": "2026 푸드위크코리아 전체공사",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=801",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/801/20261111131742_1_%EB%B6%80%EB%8C%80%EC%8B%9C%EC%84%A41.jpg",
+   "source": "프로디자인그룹",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "a97c7c2bb1abf2aa7ebc230d7349d0ad3fec75e3dfe34306a09e885a6e2f8923",
+   "phash": "ed76dde6fea43eb09cd299f293f2d24656c57a5d739c71c03cfcce0ed383c1ec",
+   "color": [
+    126,
+    133,
+    142
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "b116efc5-ca5b-4e3f-85ba-df16c2f54912",
+   "title": "2026 스마트에너지",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=792",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/792/20261028162404_1_KakaoTalk_20261028_120330319_02.jpg",
+   "source": "프로디자인그룹",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "d44af531998e72b57e442bd0c1e5e75e393ce1e6f3765864ebb99aa9ce8016da",
+   "phash": "3cc6709373a77061716173ec798d730d765d790c79c071137c3f74bc68636837",
+   "color": [
+    121,
+    122,
+    130
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "6094433d-9fbf-48ae-a068-4c3f7b2d9fae",
+   "title": "2026 한국건축산업대전",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=791",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/791/20261028161909_1_KakaoTalk_20261028_122624966_01.jpg",
+   "source": "프로디자인그룹",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "d8ed57a96a1098a4e6973d93f47189f230a27bf42eb5f8bd7314e9c90a1a86b0",
+   "phash": "f8a1de20d7e097e895bf9cef94ae94f29cb19db1bcb3b4b3a39f24e60c370137",
+   "color": [
+    138,
+    139,
+    140
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "3b429c72-a5a3-4fad-9de6-9376499fbb1b",
+   "title": "2026 BCWW",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=760",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/760/20260915112234_1_%EC%98%A4%ED%94%88%EB%9D%BC%EC%9A%B4%EC%A7%80%203.jpg",
+   "source": "프로디자인그룹",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "dae05d4ab7d91415eabf9180dd38eb16fe4478f4363c0b57b365ce85f79fa2ab",
+   "phash": "0fc767ad1bf643133fd30573811b86c24666d66495ad6c4d437853329b781a56",
+   "color": [
+    125,
+    123,
+    136
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "925d5dcd-34fb-44d9-8917-a14c07d43fae",
+   "title": "STRYKER 목공...",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=779",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/779/20261028152826_1_KakaoTalk_20261012_081716496_05.jpg",
+   "source": "프로디자인그룹",
+   "category": "목공부스",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": false,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "625402536fab4973829a7755430703b39929d33f7fbd4ad99b89ae60d4b47127",
+   "phash": "8efcc041673f1fe0e0987932961692761a4713a35733045f9081201e0497099d",
+   "color": [
+    143,
+    129,
+    112
+   ],
+   "hashAlgo": "dhash256",
+   "dupOf": "6993cc4d-4e1e-40b6-9680-557038692d3a"
+  },
+  {
+   "id": "803ac4da-8712-4dc7-991d-6f644dab40d4",
+   "title": "2026 자율주행모...",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=739",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/739/20260825111538_1_UWC%20%EC%BB%A8%ED%8D%BC%EB%9F%B0%EC%8A%A4%EC%9E%A5.jpg",
+   "source": "프로디자인그룹",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "db7ca2b866cae8995c01d15cd6723ada8babc6ed90546427a9ca08d94be66cb0",
+   "phash": "b193e1ccd9dcc91a39a43f6648b658e0d6269686f136f8328fc2d0f2617a0ff6",
+   "color": [
+    135,
+    138,
+    145
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "7f701c5f-4c1e-4143-a44b-43dafcf51788",
+   "title": "EV트렌드코리아 2...",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=738",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/738/20260825111459_1_EV%20TREND%20%ED%94%84%EB%A0%88%EC%8A%A4%EC%84%BC%ED%84%B0.jpg",
+   "source": "프로디자인그룹",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "5972a688f7f5ca44d68e50618853315f79f0d7a0875b29da24cbe5871611ef96",
+   "phash": "e3a914e9e2d8fe4df7c11ec2fccca0c8a4c8a4c9a4c9e248f8c3ae04e62c7199",
+   "color": [
+    143,
+    148,
+    135
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "6fa26bb8-fb19-48bd-80fa-6cf3712d409d",
+   "title": "2026 AI SU...",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=737",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/737/20260819150628_1_%EB%93%B1%EB%A1%9D%EB%8D%B0%EC%8A%A4%ED%81%AC.jpg",
+   "source": "프로디자인그룹",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "c498ca6a763a443b029b2bb1b4a0415691d942e1b4c3bde18e4aeeb3770dd935",
+   "phash": "368b36cd2704c78ed046d0a4d7b0cab9cab1dab3dab3dab1d2bbd2fb5a7bc80e",
+   "color": [
+    133,
+    131,
+    132
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "208a7ea7-722d-43f3-a1a1-8dd89ee771a1",
+   "title": "2026 국제수면치...",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=724",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/724/20260803135014_1_%EC%98%A5%ED%83%80%EB%B6%80%EC%8A%A42.jpg",
+   "source": "프로디자인그룹",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "cec8a6da31afe5b0f00a7b2f92b68ac3fbd4f0bb0852def6b8008b845720f027",
+   "phash": "cc74c1e6c2f6c6de9c0b3f29982acc29cda9c98acf98cf98e330f31173416ec1",
+   "color": [
+    126,
+    118,
+    113
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "0b98f1b9-b2b8-499c-b4ab-180af33a0e9d",
+   "title": "2026 국제수면치...",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=723",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/723/20260803131842_1_%EB%A7%98%ED%94%8C%EB%A6%AD%EC%8A%A42.jpg",
+   "source": "프로디자인그룹",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "e9f6f0e36c61483ea3dd12838e43d071d71280886062f82b7b8a34c869e774e2",
+   "phash": "e63f731b3da731e3394b981eb8ba6db9c89b3987b992ec426c61b5841c1cec9d",
+   "color": [
+    119,
+    117,
+    122
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "f8e839ea-5a31-44b7-adbe-ec4f938b7ae4",
+   "title": "2026 서울청년정...",
+   "url": "https://pro-design.co.kr/sub/exhibition.html?modal=715",
+   "image": "https://pro-design.co.kr/_wp/data/bbs/bbs02/715/20260722132103_1_%ED%94%84%EB%A1%9C%EB%94%94%EC%9E%90%EC%9D%B8%20%EA%B3%B5%EC%9C%A0%20(6).jpg",
+   "source": "프로디자인그룹",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-15T04:21:35.093Z",
+   "separateFrom": [],
+   "sha256": "ab0564206040d56eb8c908005ae5e7ec8e2effd7c969b7be5e1dab330c6a8597",
+   "phash": "03d6038703c7058f07af8487879f8be589439c368c66cc46cc6614ee8ccf099f",
+   "color": [
+    199,
+    195,
+    186
    ],
    "hashAlgo": "dhash256"
   }
