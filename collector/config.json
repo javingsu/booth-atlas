@@ -6,25 +6,248 @@
   "ogBackfillPerRun": 25,
   "ogRetryDays": 30,
   "hashPerRun": 320,
-  "ogSkipHosts": ["pinterest.com", "behance.net", "buildman.co.kr"],
+  "ogSkipHosts": [
+    "pinterest.com",
+    "behance.net",
+    "buildman.co.kr"
+  ],
   "sources": [
-    { "name": "네이버 RSS · bmsplan", "type": "feed", "url": "https://rss.blog.naver.com/bmsplan.xml", "label": "네이버 블로그", "count": { "urlIncludes": "blog.naver.com/bmsplan/" }, "okStatus": "공개 RSS 확인 · 이미지가 없으면 원문 링크" },
-    { "name": "네이버 RSS · groupmco88", "type": "feed", "url": "https://rss.blog.naver.com/groupmco88.xml", "label": "네이버 블로그", "count": { "urlIncludes": "blog.naver.com/groupmco88/" }, "okStatus": "공개 RSS 확인 · 이미지가 없으면 원문 링크" },
-    { "name": "네이버 RSS · epicdesigngroup_01", "type": "feed", "url": "https://rss.blog.naver.com/epicdesigngroup_01.xml", "label": "네이버 블로그", "count": { "urlIncludes": "blog.naver.com/epicdesigngroup_01/" }, "okStatus": "공개 RSS 확인 · 이미지가 없으면 원문 링크" },
-    { "name": "네이버 RSS · lf-exhibition", "type": "feed", "url": "https://rss.blog.naver.com/lf-exhibition.xml", "label": "네이버 블로그", "count": { "urlIncludes": "blog.naver.com/lf-exhibition/" }, "okStatus": "공개 RSS 확인 · 이미지가 없으면 원문 링크" },
-    { "name": "네이버 RSS · dimca", "type": "feed", "url": "https://rss.blog.naver.com/dimca.xml", "label": "네이버 블로그", "count": { "urlIncludes": "blog.naver.com/dimca/" }, "okStatus": "공개 RSS 확인 · 이미지가 없으면 원문 링크" },
-    { "name": "부스 시공 블로그", "type": "feed", "url": "https://kjoung99.tistory.com/rss", "label": "부스 시공 블로그", "requireRelevance": true, "count": { "source": "부스 시공 블로그" }, "okStatus": "공개 RSS 확인" },
-    { "name": "EX Booth", "type": "cards", "url": "https://exhibition-booth.com/category/designexamples/", "label": "EX Booth", "linkPattern": "^https://exhibition-booth\\.com/[^/?#]+/?$", "imagePattern": "/wp-content/uploads/", "count": { "source": "EX Booth" }, "okStatus": "공개 포트폴리오 확인" },
-    { "name": "전시기획틈", "type": "images", "url": "https://www.exteum.com/", "label": "전시기획틈", "listing": true, "imagePattern": "/data/goods/.+_main_", "count": { "source": "전시기획틈" }, "okStatus": "공개 포트폴리오 확인" },
-    { "name": "Blue Point", "type": "images", "url": "https://bluepointllc.com/portfolio/", "label": "Blue Point", "listing": true, "imagePattern": "/images/work/build-\\d+\\.(jpe?g|png|webp)", "count": { "source": "Blue Point" }, "okStatus": "공개 포트폴리오 확인" },
-    { "name": "FM BUILD · 기본부스", "type": "images", "url": "https://fmbuild.co.kr/", "label": "FM BUILD", "listing": true, "imagePattern": "portfolio", "titlePrefix": "FM BUILD · ", "max": 12, "count": { "source": "FM BUILD" }, "okStatus": "옥타 부스 사진 확인" }
+    {
+      "name": "네이버 RSS · bmsplan",
+      "type": "feed",
+      "url": "https://rss.blog.naver.com/bmsplan.xml",
+      "label": "네이버 블로그",
+      "count": {
+        "urlIncludes": "blog.naver.com/bmsplan/"
+      },
+      "okStatus": "공개 RSS 확인 · 이미지가 없으면 원문 링크"
+    },
+    {
+      "name": "네이버 RSS · groupmco88",
+      "type": "feed",
+      "url": "https://rss.blog.naver.com/groupmco88.xml",
+      "label": "네이버 블로그",
+      "count": {
+        "urlIncludes": "blog.naver.com/groupmco88/"
+      },
+      "okStatus": "공개 RSS 확인 · 이미지가 없으면 원문 링크"
+    },
+    {
+      "name": "네이버 RSS · epicdesigngroup_01",
+      "type": "feed",
+      "url": "https://rss.blog.naver.com/epicdesigngroup_01.xml",
+      "label": "네이버 블로그",
+      "count": {
+        "urlIncludes": "blog.naver.com/epicdesigngroup_01/"
+      },
+      "okStatus": "공개 RSS 확인 · 이미지가 없으면 원문 링크"
+    },
+    {
+      "name": "네이버 RSS · lf-exhibition",
+      "type": "feed",
+      "url": "https://rss.blog.naver.com/lf-exhibition.xml",
+      "label": "네이버 블로그",
+      "count": {
+        "urlIncludes": "blog.naver.com/lf-exhibition/"
+      },
+      "okStatus": "공개 RSS 확인 · 이미지가 없으면 원문 링크"
+    },
+    {
+      "name": "네이버 RSS · dimca",
+      "type": "feed",
+      "url": "https://rss.blog.naver.com/dimca.xml",
+      "label": "네이버 블로그",
+      "count": {
+        "urlIncludes": "blog.naver.com/dimca/"
+      },
+      "okStatus": "공개 RSS 확인 · 이미지가 없으면 원문 링크"
+    },
+    {
+      "name": "부스 시공 블로그",
+      "type": "feed",
+      "url": "https://kjoung99.tistory.com/rss",
+      "label": "부스 시공 블로그",
+      "requireRelevance": true,
+      "count": {
+        "source": "부스 시공 블로그"
+      },
+      "okStatus": "공개 RSS 확인"
+    },
+    {
+      "name": "EX Booth",
+      "type": "cards",
+      "url": "https://exhibition-booth.com/category/designexamples/",
+      "label": "EX Booth",
+      "linkPattern": "^https://exhibition-booth\\.com/[^/?#]+/?$",
+      "imagePattern": "/wp-content/uploads/",
+      "count": {
+        "source": "EX Booth"
+      },
+      "okStatus": "공개 포트폴리오 확인"
+    },
+    {
+      "name": "전시기획틈",
+      "type": "images",
+      "url": "https://www.exteum.com/",
+      "label": "전시기획틈",
+      "listing": true,
+      "imagePattern": "/data/goods/.+_main_",
+      "count": {
+        "source": "전시기획틈"
+      },
+      "okStatus": "공개 포트폴리오 확인"
+    },
+    {
+      "name": "Blue Point",
+      "type": "images",
+      "url": "https://bluepointllc.com/portfolio/",
+      "label": "Blue Point",
+      "listing": true,
+      "imagePattern": "/images/work/build-\\d+\\.(jpe?g|png|webp)",
+      "count": {
+        "source": "Blue Point"
+      },
+      "okStatus": "공개 포트폴리오 확인"
+    },
+    {
+      "name": "FM BUILD · 기본부스",
+      "type": "images",
+      "url": "https://fmbuild.co.kr/",
+      "label": "FM BUILD",
+      "listing": true,
+      "imagePattern": "portfolio",
+      "titlePrefix": "FM BUILD · ",
+      "max": 12,
+      "count": {
+        "source": "FM BUILD"
+      },
+      "okStatus": "옥타 부스 사진 확인"
+    },
+    {
+      "name": "네이버 RSS · seouladcom88",
+      "type": "feed",
+      "url": "https://rss.blog.naver.com/seouladcom88.xml",
+      "label": "네이버 블로그",
+      "count": {
+        "urlIncludes": "blog.naver.com/seouladcom88/"
+      },
+      "okStatus": "공개 RSS 확인 · 서울부스애드컴"
+    },
+    {
+      "name": "프로디자인그룹",
+      "type": "cards",
+      "url": "https://pro-design.co.kr/",
+      "label": "프로디자인그룹",
+      "linkPattern": "modal=\\d+",
+      "imagePattern": "/_wp/data/bbs/",
+      "count": {
+        "source": "프로디자인그룹"
+      },
+      "okStatus": "공개 포트폴리오 확인"
+    },
+    {
+      "name": "뚝딱제작소",
+      "type": "wp",
+      "url": "https://tuktak.kr/",
+      "api": "https://tuktak.kr/wp-json/wp/v2/portfolio?per_page=30&_embed=wp:featuredmedia",
+      "label": "뚝딱제작소",
+      "count": {
+        "source": "뚝딱제작소"
+      },
+      "okStatus": "공개 포트폴리오(WordPress) 확인"
+    },
+    {
+      "name": "디온웍스 · 허니콤보드 부스",
+      "type": "cards",
+      "url": "https://d-onworks.com/portfolio",
+      "label": "디온웍스",
+      "linkPattern": "/portfolio/project-",
+      "imagePattern": "supabase\\.co/storage/",
+      "category": "복합·기타",
+      "count": {
+        "source": "디온웍스"
+      },
+      "okStatus": "공개 포트폴리오 확인"
+    },
+    {
+      "name": "Uniplan",
+      "type": "cards",
+      "url": "https://www.uniplan.com/work",
+      "label": "Uniplan",
+      "linkPattern": "^https://www\\.uniplan\\.com/work/en-",
+      "imagePattern": "cms\\.uniplan\\.com/images/",
+      "titleFromSlug": true,
+      "relevance": "ifa|expo|fair|messe|show|ces|mwc|booth|stand|pavilion|summit|congress|launch",
+      "count": {
+        "source": "Uniplan"
+      },
+      "okStatus": "공개 포트폴리오 확인"
+    },
+    {
+      "name": "Booth Exhibits",
+      "type": "wp",
+      "url": "https://boothexhibits.com/case-studies/",
+      "api": "https://boothexhibits.com/wp-json/wp/v2/case-studies?per_page=30&_embed=wp:featuredmedia",
+      "label": "Booth Exhibits",
+      "count": {
+        "source": "Booth Exhibits"
+      },
+      "okStatus": "공개 사례(WordPress) 확인 · 이미지는 원문 대표 이미지"
+    },
+    {
+      "name": "Dezeen · 전시 디자인",
+      "type": "feed",
+      "url": "https://www.dezeen.com/tag/exhibition-design/feed/",
+      "label": "Dezeen",
+      "relevance": "booth|\\bstands?\\b|trade (fair|show)|furniture fair|salone|design week|pavilion|showroom|exhibition (stand|space|design)",
+      "count": {
+        "source": "Dezeen"
+      },
+      "okStatus": "공개 RSS 확인 · 박람회 부스·전시 공간 기사만"
+    }
   ],
   "linkOnly": [
-    { "name": "빌드만 · 블럭", "url": "https://buildman.co.kr/our-business/block-booth/", "status": "접근 제한 · 링크 참고", "count": { "source": "빌드만 · 블럭" } },
-    { "name": "빌드만 · 프리미엄 블럭", "url": "https://buildman.co.kr/portfolio/case-studies/premium-block-booth/", "status": "접근 제한 · 링크 참고", "count": { "source": "빌드만 · 프리미엄 블럭" } },
-    { "name": "OCTANORM", "url": "https://www.octanorm.com/exhibition-systems/", "status": "이미지 추출 없음 · 링크 참고" },
-    { "name": "디자인 엑시움", "url": "https://exhium.com/board/view.php?id=s31&key=&opt=&p=3&uniq=26", "status": "이미지 추출 없음 · 링크 참고" },
-    { "name": "Pinterest", "url": "https://www.pinterest.com/", "status": "직접 추가한 핀 보관 · 자동 수집 안 함(로그인 벽)", "count": { "source": "Pinterest" } },
-    { "name": "Behance", "url": "https://www.behance.net/", "status": "직접 추가한 프로젝트 보관 · 자동 수집 안 함(본문 요청 403)", "count": { "source": "Behance" } }
+    {
+      "name": "빌드만 · 블럭",
+      "url": "https://buildman.co.kr/our-business/block-booth/",
+      "status": "접근 제한 · 링크 참고",
+      "count": {
+        "source": "빌드만 · 블럭"
+      }
+    },
+    {
+      "name": "빌드만 · 프리미엄 블럭",
+      "url": "https://buildman.co.kr/portfolio/case-studies/premium-block-booth/",
+      "status": "접근 제한 · 링크 참고",
+      "count": {
+        "source": "빌드만 · 프리미엄 블럭"
+      }
+    },
+    {
+      "name": "OCTANORM",
+      "url": "https://www.octanorm.com/exhibition-systems/",
+      "status": "이미지 추출 없음 · 링크 참고"
+    },
+    {
+      "name": "디자인 엑시움",
+      "url": "https://exhium.com/board/view.php?id=s31&key=&opt=&p=3&uniq=26",
+      "status": "이미지 추출 없음 · 링크 참고"
+    },
+    {
+      "name": "Pinterest",
+      "url": "https://www.pinterest.com/",
+      "status": "직접 추가한 핀 보관 · 자동 수집 안 함(로그인 벽)",
+      "count": {
+        "source": "Pinterest"
+      }
+    },
+    {
+      "name": "Behance",
+      "url": "https://www.behance.net/",
+      "status": "직접 추가한 프로젝트 보관 · 자동 수집 안 함(본문 요청 403)",
+      "count": {
+        "source": "Behance"
+      }
+    }
   ]
 }

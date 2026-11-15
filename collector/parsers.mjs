@@ -34,7 +34,7 @@ export function absolutize(u, base) {
   try { return new URL(u, base).toString(); } catch { return ''; }
 }
 
-const JUNK_IMAGE = /logo|icon|sprite|blank|spacer|loading|placeholder|btn_|button|banner_top|avatar|emoji|1x1|pixel/i;
+const JUNK_IMAGE = /logo|icon|sprite|blank\.|spacer|loading\.|placeholder|btn_|button|banner_top|avatar|emoji|\/1x1\.|pixel\.(gif|png)/i;
 
 export function imgSrc(imgTag, base) {
   const cands = [attr(imgTag, 'data-src'), attr(imgTag, 'data-lazy-src'), attr(imgTag, 'data-original'), attr(imgTag, 'src')];
@@ -127,7 +127,15 @@ export function extractImages(html, pageUrl, { imagePattern, max = 60 } = {}) {
 }
 
 // 카드 모드: 이미지를 감싼 링크 = 개별 사례
-export function extractCards(html, pageUrl, { linkPattern, imagePattern, max = 60 } = {}) {
+export function titleFromSlug(href) {
+  try {
+    const seg = decodeURIComponent(new URL(href).pathname.replace(/\/+$/, '').split('/').pop() || '');
+    return seg.replace(/^(en|ko|ja|de)-/i, '').replace(/[-_]+/g, ' ').trim()
+      .split(' ').map((w) => (/^[a-z]{2,4}$/i.test(w) && /^(ifa|ces|mwc|ise|led|ai|ivd|vip|fhd|nab|bmw|rx|ui)$/i.test(w) ? w.toUpperCase() : w.charAt(0).toUpperCase() + w.slice(1))).join(' ');
+  } catch { return ''; }
+}
+
+export function extractCards(html, pageUrl, { linkPattern, imagePattern, max = 60, titleFromSlug: slugTitle = false } = {}) {
   const host = (() => { try { return new URL(pageUrl).hostname.replace(/^www\./, ''); } catch { return ''; } })();
   const lre = linkPattern ? new RegExp(linkPattern, 'i') : null;
   const ire = imagePattern ? new RegExp(imagePattern, 'i') : null;
@@ -147,10 +155,29 @@ export function extractCards(html, pageUrl, { linkPattern, imagePattern, max = 6
     const key = href.split('#')[0];
     if (seen.has(key)) continue;
     seen.add(key);
-    const title = (attr(img[0], 'alt') || attr('<a ' + m[1] + '>', 'title') || stripTags(m[2])).replace(/\s+/g, ' ').trim();
+    const title = (attr(img[0], 'alt') || attr('<a ' + m[1] + '>', 'title') || stripTags(m[2]) || (slugTitle ? titleFromSlug(key) : '')).replace(/\s+/g, ' ').trim();
     if (!title) continue;
     out.push({ title, url: key, image: src, text: '' });
     if (out.length >= max) break;
   }
   return out;
+}
+
+// WordPress REST API (/wp-json/wp/v2/<type>?_embed=wp:featuredmedia)
+export function parseWpJson(text) {
+  let list;
+  try { list = JSON.parse(text); } catch { return []; }
+  if (!Array.isArray(list)) return [];
+  return list.map((p) => {
+    const media = p?._embedded?.['wp:featuredmedia']?.[0];
+    const sizes = media?.media_details?.sizes || {};
+    const image = (sizes.large || sizes.medium_large || sizes.full || {}).source_url || media?.source_url || '';
+    return {
+      title: stripTags(decodeEntities(p?.title?.rendered || '')),
+      url: String(p?.link || ''),
+      image: /^https:/i.test(image) ? image : '',
+      text: stripTags(decodeEntities(p?.excerpt?.rendered || '')).slice(0, 600),
+      publishedAt: p?.date_gmt ? p.date_gmt + 'Z' : p?.date || '',
+    };
+  }).filter((x) => x.title && /^https:/i.test(x.url));
 }

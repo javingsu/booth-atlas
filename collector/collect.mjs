@@ -5,7 +5,7 @@ import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { uid, cleanUrl, classify, resolveCategory, findDuplicate, hamming, colorDiff } from '../lib/library.mjs';
-import { parseFeed, extractImages, extractCards, parseOgImage } from './parsers.mjs';
+import { parseFeed, extractImages, extractCards, parseOgImage, parseWpJson } from './parsers.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DAY = 86400000;
@@ -27,12 +27,13 @@ async function fetchWithTimeout(fetchImpl, url, { ua, timeoutMs = 20000, binary 
 }
 
 export async function collectSource(src, getText) {
-  const body = await getText(src.url);
+  const body = await getText(src.api || src.url);
+  if (src.type === 'wp') return parseWpJson(body);
   if (src.type === 'feed') {
     return parseFeed(body).map((x) => ({ title: x.title, url: x.link, image: x.image, text: [x.text, ...(x.categories || [])].join(' '), publishedAt: x.pubDate }));
   }
   if (src.type === 'images') return extractImages(body, src.url, { imagePattern: src.imagePattern, max: src.max || 60 });
-  if (src.type === 'cards') return extractCards(body, src.url, { linkPattern: src.linkPattern, imagePattern: src.imagePattern, max: src.max || 60 });
+  if (src.type === 'cards') return extractCards(body, src.url, { linkPattern: src.linkPattern, imagePattern: src.imagePattern, max: src.max || 60, titleFromSlug: !!src.titleFromSlug });
   throw new Error('알 수 없는 수집 방식: ' + src.type);
 }
 
@@ -90,20 +91,23 @@ export async function run({ fetchImpl = globalThis.fetch, libPath = path.join(RO
         if (fresh >= (cfg.maxNewPerSource || 30)) break;
         const cand = { ...c, title: (src.titlePrefix || '') + String(c.title || '').trim(), url: cleanUrl(c.url), image: c.image || '' };
         if (!cand.title || !/^https:/i.test(cand.url)) continue;
-        if ((src.type === 'feed' || src.requireRelevance) && !relevance.test(cand.title + ' ' + (cand.text || ''))) continue;
+        const rel = src.relevance ? new RegExp(src.relevance, 'i') : relevance;
+        if ((src.type === 'feed' || src.requireRelevance || src.relevance) && !rel.test(cand.title + ' ' + (cand.text || ''))) continue;
         if (exclude && exclude.test(cand.title)) continue;
         const dup = findDuplicate(lib.items, cand, listingUrls);
         if (dup) {
           if (!dup.image && cand.image) { dup.image = cand.image; updated++; }
           continue;
         }
-        const cls = classify(cand.title, cand.text || '', null);
+        let cls = classify(cand.title, cand.text || '', null);
+        if (src.category && (cls.reason === 'none' || cls.reason === 'info')) cls = { category: src.category, confident: false, reason: 'source' };
         const item = {
           id: uid(), title: cand.title.slice(0, 200), url: cand.url, image: cand.image, source: src.label,
           category: resolveCategory(cls.category, lib.categoryAliases, lib.categories),
           tags: [], note: '', favorite: false, manual: false, review: !cls.confident,
           createdAt: now, separateFrom: [],
         };
+        if (cls.reason === 'source') item.categoryFrom = 'source';
         const pub = toDate(cand.publishedAt);
         if (pub) item.publishedAt = pub;
         lib.items.push(item);
@@ -125,6 +129,7 @@ export async function run({ fetchImpl = globalThis.fetch, libPath = path.join(RO
   for (const x of lib.items) {
     if (x.manual || x.deleted || added.includes(x)) continue;
     const c = classify(x.title, '', x.category);
+    if (x.categoryFrom === 'source' && (c.reason === 'none' || c.reason === 'info')) continue;
     const cat = resolveCategory(c.category, lib.categoryAliases, lib.categories);
     if (cat !== x.category || x.review !== !c.confident) { x.category = cat; x.review = !c.confident; reclassified++; }
   }

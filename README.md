@@ -16,7 +16,8 @@
 | 소유자가 이슈 등록 | 사이트의 ‘GitHub에 반영’ 변경 / ‘레퍼런스 추가’ 이슈 폼을 반영하고 이슈를 닫음 |
 | `index.html`·`lib/`·`data/` 수정 push | 사이트만 다시 배포 |
 
-수집 출처(`collector/config.json`): 네이버 블로그 공개 RSS 5곳(bmsplan, groupmco88, epicdesigngroup_01, lf-exhibition, dimca), 부스 시공 블로그(Tistory RSS), EX Booth, 전시기획틈, Blue Point, FM BUILD 공개 페이지.
+수집 출처(`collector/config.json`, 17곳): 네이버 블로그 공개 RSS 6곳(bmsplan, groupmco88, epicdesigngroup_01, lf-exhibition, dimca, seouladcom88), 부스 시공 블로그(Tistory RSS), 국내 업체 포트폴리오(전시기획틈, 프로디자인그룹, 뚝딱제작소, 디온웍스, FM BUILD), 해외(EX Booth, Blue Point, Uniplan, Booth Exhibits), 디자인 매체(Dezeen 전시 디자인 — 박람회 부스·전시 공간 기사만).
+수집 방식은 RSS, 포트폴리오 목록 HTML(카드·이미지), WordPress REST API 세 가지입니다.
 Pinterest·Behance·빌드만 등 로그인·차단이 있는 곳은 우회하지 않고 직접 추가한 링크만 보관합니다.
 
 - **분류**: 제목 키워드(목공/블럭/옥타·패브릭/트러스/컨퍼런스, 일본어 포함). 한 종류만 뚜렷하면 ‘자동 분류’, 애매하면 ‘분류 확인 필요’. 직접 정리한 자료(`manual`)는 수집기가 바꾸지 않습니다.
