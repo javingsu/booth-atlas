@@ -182,8 +182,9 @@
       "count": {
         "source": "Uniplan"
       },
-      "okStatus": "공개 포트폴리오 확인",
-      "category": "목공부스"
+      "okStatus": "공개 포트폴리오 확인 · 이미지는 사례 페이지 대표 이미지",
+      "category": "목공부스",
+      "ogImage": true
     },
     {
       "name": "Booth Exhibits",

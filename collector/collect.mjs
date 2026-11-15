@@ -48,6 +48,8 @@ export async function fingerprint(buf, sharp) {
   const sha256 = createHash('sha256').update(buf).digest('hex');
   if (!sharp) return { sha256 };
   const img = sharp(buf, { failOn: 'none' }).rotate();
+  const meta = await img.metadata();
+  if ((meta.width || 0) < 16 || (meta.height || 0) < 16) return { sha256, tiny: true };
   const { data } = await img.clone().removeAlpha().grayscale().resize(17, 16, { fit: 'fill' }).raw().toBuffer({ resolveWithObject: true });
   let bits = '';
   for (let y = 0; y < 16; y++) for (let x = 0; x < 16; x++) bits += data[y * 17 + x] > data[y * 17 + x + 1] ? '1' : '0';
@@ -89,7 +91,7 @@ export async function run({ fetchImpl = globalThis.fetch, libPath = path.join(RO
       found = cands.length;
       for (const c of cands) {
         if (fresh >= (cfg.maxNewPerSource || 30)) break;
-        const cand = { ...c, title: (src.titlePrefix || '') + String(c.title || '').trim(), url: cleanUrl(c.url), image: c.image || '' };
+        const cand = { ...c, title: (src.titlePrefix || '') + String(c.title || '').trim(), url: cleanUrl(c.url), image: src.ogImage ? '' : (c.image || '') };
         if (!cand.title || !/^https:/i.test(cand.url)) continue;
         const rel = src.relevance ? new RegExp(src.relevance, 'i') : relevance;
         const relText = src.relevanceField === 'title' ? cand.title : cand.title + ' ' + (cand.text || '');
@@ -161,7 +163,9 @@ export async function run({ fetchImpl = globalThis.fetch, libPath = path.join(RO
     await pool(todo, 6, async (x) => {
       try {
         const buf = await fetchWithTimeout(fetchImpl, x.image, { ua, binary: true, timeoutMs: 15000 });
-        Object.assign(x, await fingerprint(buf, sharp));
+        const fp = await fingerprint(buf, sharp);
+        if (fp.tiny) { if (!x.manual) { x.image = ''; delete x.ogTriedAt; } x.hashTriedAt = now; return; }
+        Object.assign(x, fp);
         delete x.hashTriedAt;
         ok++;
       } catch { x.hashTriedAt = now; }

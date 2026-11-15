@@ -41,7 +41,7 @@ const exbooth = `<h2 class="entry-title"><a href="https://exhibition-booth.com/m
 const tistory = `<rss version="2.0"><channel><item><title>SETEC 프랜차이즈박람회 트러스 부스 시공</title><link>https://kjoung99.tistory.com/48</link><description>&lt;img src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&amp;fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Fblog%2F261548395424D48520"&gt; 부스</description></item>
 <item><title>주말 캠핑 후기</title><link>https://kjoung99.tistory.com/300</link><description>캠핑</description></item></channel></rss>`;
 
-const prodesign = `<a href="/sub/indenpendent.html?modal=789"><img src="/_wp/data/bbs/bbs01/789/20261028_1.jpg" alt="2026 소부장뿌리기술대전 선익시스템 목공부스"></a>
+const prodesign = `<a href="/sub/indenpendent.html?modal=99999"><img src="/_wp/data/bbs/bbs01/99999/20990101_1.jpg" alt="2099 픽스처박람회 테스트 목공부스"></a>
 <a href="/"><img src="/img/logo.png" alt="프로디자인그룹"></a>`;
 const tuktakWp = JSON.stringify([
   { link: 'https://tuktak.kr/portfolio-item/fixture-expo-2099/', date_gmt: '2099-01-14T02:42:24', title: { rendered: 'Fixture Expo 2099, 테스트' }, excerpt: { rendered: '<p>라이트 패브릭 부스</p>' }, _embedded: { 'wp:featuredmedia': [{ source_url: 'https://tuktak.kr/wp-content/uploads/2099/01/FX.png', media_details: { sizes: { large: { source_url: 'https://tuktak.kr/wp-content/uploads/2099/01/FX-1024x800.png' } } } }] } },
@@ -177,10 +177,10 @@ await t('수집기 통합 (실제 라이브러리 사본 + 가짜 fetch)', async
   const { added, errors, lib } = await run({ fetchImpl, libPath, now: '2026-11-16T00:07:00.000Z', log: (s) => logs.push(s) });
   const titles = added.map((x) => x.title).sort();
   assert.deepEqual(titles, ['Island booth with a timber canopy and lit product shelving', '新展示会2026 木工ブース', '블럭부스 견적을 볼 때 확인할 항목', '코리아빌드 2026 | 원목 루버를 살린 9×6m 목공부스 · GROUP MCO', '트러스 I 새로운고객',
-    '2026 소부장뿌리기술대전 선익시스템 목공부스', 'Fixture Expo 2099, 테스트', '허니콤보드 테스트 부스, 가벽 배치를 검토하는 이유', 'Fixturebrand IFA 2099', 'Note Design Studio builds brick stand for Vestre at Stockholm Furniture Fair'].sort());
+    '2099 픽스처박람회 테스트 목공부스', 'Fixture Expo 2099, 테스트', '허니콤보드 테스트 부스, 가벽 배치를 검토하는 이유', 'Fixturebrand IFA 2099', 'Note Design Studio builds brick stand for Vestre at Stockholm Furniture Fair'].sort());
   const pd = added.find((x) => x.source === '프로디자인그룹');
-  assert.equal(pd.url, 'https://pro-design.co.kr/sub/indenpendent.html?modal=789');
-  assert.equal(pd.image, 'https://pro-design.co.kr/_wp/data/bbs/bbs01/789/20261028_1.jpg');
+  assert.equal(pd.url, 'https://pro-design.co.kr/sub/indenpendent.html?modal=99999');
+  assert.equal(pd.image, 'https://pro-design.co.kr/_wp/data/bbs/bbs01/99999/20990101_1.jpg');
   assert.equal(pd.category, '목공부스');
   const tk = added.find((x) => x.source === '뚝딱제작소');
   assert.equal(tk.image, 'https://tuktak.kr/wp-content/uploads/2099/01/FX-1024x800.png');
@@ -189,6 +189,7 @@ await t('수집기 통합 (실제 라이브러리 사본 + 가짜 fetch)', async
   assert.equal(dw.category, '복합·기타');
   assert.equal(dw.categoryFrom, 'source');
   assert.ok(!added.some((x) => /Zott|Ceramics/.test(x.title)));
+  assert.equal(added.find((x) => x.source === 'Uniplan').image, '');
   const korea = added.find((x) => x.title.startsWith('코리아빌드'));
   assert.equal(korea.url, 'https://blog.naver.com/groupmco88/224500000001');
   assert.equal(korea.category, '목공부스');
