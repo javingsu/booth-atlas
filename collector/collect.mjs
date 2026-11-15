@@ -92,7 +92,8 @@ export async function run({ fetchImpl = globalThis.fetch, libPath = path.join(RO
         const cand = { ...c, title: (src.titlePrefix || '') + String(c.title || '').trim(), url: cleanUrl(c.url), image: c.image || '' };
         if (!cand.title || !/^https:/i.test(cand.url)) continue;
         const rel = src.relevance ? new RegExp(src.relevance, 'i') : relevance;
-        if ((src.type === 'feed' || src.requireRelevance || src.relevance) && !rel.test(cand.title + ' ' + (cand.text || ''))) continue;
+        const relText = src.relevanceField === 'title' ? cand.title : cand.title + ' ' + (cand.text || '');
+        if ((src.type === 'feed' || src.requireRelevance || src.relevance) && !rel.test(relText)) continue;
         if (exclude && exclude.test(cand.title)) continue;
         const dup = findDuplicate(lib.items, cand, listingUrls);
         if (dup) {

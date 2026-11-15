@@ -136,7 +136,7 @@
     {
       "name": "프로디자인그룹",
       "type": "cards",
-      "url": "https://pro-design.co.kr/",
+      "url": "https://pro-design.co.kr/main/main.html",
       "label": "프로디자인그룹",
       "linkPattern": "modal=\\d+",
       "imagePattern": "/_wp/data/bbs/",
@@ -154,7 +154,8 @@
       "count": {
         "source": "뚝딱제작소"
       },
-      "okStatus": "공개 포트폴리오(WordPress) 확인"
+      "okStatus": "공개 포트폴리오(WordPress) 확인",
+      "category": "기본부스"
     },
     {
       "name": "디온웍스 · 허니콤보드 부스",
@@ -177,11 +178,12 @@
       "linkPattern": "^https://www\\.uniplan\\.com/work/en-",
       "imagePattern": "cms\\.uniplan\\.com/images/",
       "titleFromSlug": true,
-      "relevance": "ifa|expo|fair|messe|show|ces|mwc|booth|stand|pavilion|summit|congress|launch",
+      "relevance": "ifa|expo|fair|messe|\\bshow\\b|ces|mwc|booth|stand|pavilion|congress",
       "count": {
         "source": "Uniplan"
       },
-      "okStatus": "공개 포트폴리오 확인"
+      "okStatus": "공개 포트폴리오 확인",
+      "category": "목공부스"
     },
     {
       "name": "Booth Exhibits",
@@ -199,11 +201,12 @@
       "type": "feed",
       "url": "https://www.dezeen.com/tag/exhibition-design/feed/",
       "label": "Dezeen",
-      "relevance": "booth|\\bstands?\\b|trade (fair|show)|furniture fair|salone|design week|pavilion|showroom|exhibition (stand|space|design)",
+      "relevance": "booth|\\bstands?\\b|trade (fair|show)|furniture fair|salone|design week|pavilion|showroom",
       "count": {
         "source": "Dezeen"
       },
-      "okStatus": "공개 RSS 확인 · 박람회 부스·전시 공간 기사만"
+      "okStatus": "공개 RSS 확인 · 박람회 부스·전시 공간 기사만",
+      "relevanceField": "title"
     }
   ],
   "linkOnly": [

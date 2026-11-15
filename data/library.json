@@ -130,7 +130,7 @@
    "url": "https://www.uniplan.com/work",
    "status": "공개 포트폴리오 확인",
    "count": 7,
-   "newThisRun": 7
+   "newThisRun": 6
   },
   {
    "name": "Booth Exhibits",
@@ -144,7 +144,7 @@
    "url": "https://www.dezeen.com/tag/exhibition-design/feed/",
    "status": "공개 RSS 확인 · 박람회 부스·전시 공간 기사만",
    "count": 30,
-   "newThisRun": 30
+   "newThisRun": 3
   },
   {
    "name": "빌드만 · 블럭",
@@ -186,9 +186,9 @@
  "runs": [
   {
    "at": "2026-11-15T04:14:26.304Z",
-   "added": 131,
+   "added": 103,
    "updated": 0,
-   "total": 431,
+   "total": 403,
    "errors": []
   },
   {
@@ -7762,7 +7762,7 @@
    "url": "https://tuktak.kr/portfolio-item/2026-%ec%84%9c%ec%9a%b8%eb%b0%94%ec%95%a4%ec%8a%a4%ed%94%bc%eb%a6%bf%ec%87%bc-%ec%95%84%ec%9d%b4%ec%8a%a4%ec%b9%b4%eb%b9%99/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/08/아이스카빙_05-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -7778,7 +7778,8 @@
     111,
     123
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "7cc46379-911f-43e5-9937-9c25fd9dc6ab",
@@ -7786,7 +7787,7 @@
    "url": "https://tuktak.kr/portfolio-item/hp-amplify-elevate-2026-hp/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/08/HP_04-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -7802,7 +7803,8 @@
     100,
     102
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "c24e0253-5926-4fbc-aa3c-58eb21c4a2c5",
@@ -7810,7 +7812,7 @@
    "url": "https://tuktak.kr/portfolio-item/2026-%eb%b0%98%eb%8f%84%ec%b2%b4%ec%82%ac%ec%97%85-%ec%84%b1%ea%b3%bc%ea%b5%90%eb%a5%98%ed%9a%8c-%eb%b0%98%eb%8f%84%ec%b2%b4%ec%82%ac%ec%97%85%eb%8b%a8/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/07/반도체_01-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -7826,7 +7828,8 @@
     109,
     118
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "247a09be-c0c4-471f-ae74-46d855879a64",
@@ -7834,7 +7837,7 @@
    "url": "https://tuktak.kr/portfolio-item/strategy-world-seoul-2026-%ec%8a%a4%ed%8a%b8%eb%9e%98%ed%8b%b0%ec%a7%80/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/07/스트래티지_01-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -7850,7 +7853,8 @@
     102,
     70
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "25574ba9-fe2e-425a-9978-2c2fe89f7b97",
@@ -7858,7 +7862,7 @@
    "url": "https://tuktak.kr/portfolio-item/spark-korea-2026-%ec%84%bc%eb%93%9c%eb%b2%84%eb%93%9c/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/07/스파크_02-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -7874,7 +7878,8 @@
     119,
     119
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "45143021-df4d-4792-9604-2624a3967c2a",
@@ -7882,7 +7887,7 @@
    "url": "https://tuktak.kr/portfolio-item/2026-%ea%b5%ad%ec%a0%9c%ec%95%88%ec%a0%84%eb%b3%b4%ea%b1%b4%ec%a0%84%ec%8b%9c%ed%9a%8c-%ed%99%88%ed%95%8f/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/07/홈핏_02-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -7898,7 +7903,8 @@
     121,
     115
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "09c2275d-2dfb-4698-a990-bc5ad5c325d1",
@@ -7906,7 +7912,7 @@
    "url": "https://tuktak.kr/portfolio-item/deploy-for-defense-hackathon-apac-egced-tech/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/07/D4D_04-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -7922,7 +7928,8 @@
     125,
     128
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "eaabcf86-5904-4d0f-a07f-09c4899a6b0d",
@@ -7930,7 +7937,7 @@
    "url": "https://tuktak.kr/portfolio-item/2026%eb%85%84-%ed%95%9c%ea%b5%ad%ec%9c%a1%ec%a2%85%ed%95%99%ed%9a%8c-%ed%95%99%ec%88%a0%eb%b0%9c%ed%91%9c%ed%9a%8c-%ec%94%a8%eb%8d%94%ec%8a%a4/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/07/씨더스_01-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -7946,7 +7953,8 @@
     120,
     111
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "14dcd669-1612-449f-9db2-3123a4145158",
@@ -7954,7 +7962,7 @@
    "url": "https://tuktak.kr/portfolio-item/deloitte-connect-korea-2026-deloitte/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/07/Deloitte_01-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -7970,7 +7978,8 @@
     107,
     73
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "50def15b-04ef-4ecc-9bd4-2c8408b996f0",
@@ -7978,7 +7987,7 @@
    "url": "https://tuktak.kr/portfolio-item/the-maxonomy-2026-cj-%ec%98%ac%eb%a6%ac%eb%b8%8c%eb%84%a4%ed%8a%b8%ec%9b%8d%ec%8a%a4/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/07/맥소노미_04-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -7994,7 +8003,8 @@
     103,
     99
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "95e916c1-6278-4f5f-8296-cd1e4da81804",
@@ -8002,7 +8012,7 @@
    "url": "https://tuktak.kr/portfolio-item/amwc-korea-2026-%ed%85%8c%ec%8a%a4/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/07/테스_01-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -8018,7 +8028,8 @@
     67,
     102
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "ab7f2aeb-ea68-43de-ad2f-997530109f29",
@@ -8026,7 +8037,7 @@
    "url": "https://tuktak.kr/portfolio-item/2026-%ec%8a%a4%eb%a7%88%ed%8a%b8%ed%85%8c%ed%81%ac%ec%bd%94%eb%a6%ac%ec%95%84-%ec%95%84%ed%81%ac%eb%a6%b4/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/06/아크릴_05-768x591.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -8042,7 +8053,8 @@
     109,
     124
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "55682758-79b4-419a-95e8-246e6f8e5622",
@@ -8050,7 +8062,7 @@
    "url": "https://tuktak.kr/portfolio-item/2026-%ec%8a%a4%eb%a7%88%ed%8a%b8%ed%85%8c%ed%81%ac%ec%bd%94%eb%a6%ac%ec%95%84-%ec%b0%a8%ec%84%b8%eb%8c%80%ec%a7%80%eb%8a%a5%ed%98%95%eb%b0%98%eb%8f%84%ec%b2%b4%ec%82%ac%ec%97%85%eb%8b%a8/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/06/반도체_01-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -8066,7 +8078,8 @@
     121,
     124
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "b9174f87-0ab8-4008-adb0-da87352b684e",
@@ -8074,7 +8087,7 @@
    "url": "https://tuktak.kr/portfolio-item/seoul-food-2026-%ec%a7%84%ec%84%b1%eb%b0%94%ec%9d%b4%ec%98%a4/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/06/진성바이오_03-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -8090,7 +8103,8 @@
     119,
     99
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "7dca831e-876d-4733-ba61-72b21847720d",
@@ -8098,7 +8112,7 @@
    "url": "https://tuktak.kr/portfolio-item/2026-%eb%8c%80%ed%95%9c%eb%af%bc%ea%b5%ad-%ea%b5%ad%eb%b0%a9%ec%82%b0%ec%97%85%eb%b0%9c%ec%a0%84%eb%8c%80%ec%a0%84-%ec%a7%80%eb%9f%ac%ec%8a%a4%ed%8a%b8/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/06/지러스트_01-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -8114,7 +8128,8 @@
     95,
     88
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "19cc4de3-6df1-41d1-af65-97c48d195344",
@@ -8122,7 +8137,7 @@
    "url": "https://tuktak.kr/portfolio-item/2026-%ec%8a%a4%ec%9b%a8%eb%8d%b4%eb%8d%b0%ec%9d%b4-%ec%8a%a4%ec%b9%b4%eb%8b%88%ec%95%84/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/06/스웨덴데이_프로필-768x591.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -8138,7 +8153,8 @@
     110,
     72
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "dc82a6f1-727c-4894-a0be-fc9dcddce0fc",
@@ -8146,7 +8162,7 @@
    "url": "https://tuktak.kr/portfolio-item/%ea%b0%9c%eb%b0%9c%ed%98%91%eb%a0%a5%ec%9d%b4-%ec%98%a4%eb%8b%a4oda-%ec%bd%94%ec%9d%b4%ec%b9%b4/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/06/코이카_프로필-768x591.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -8162,7 +8178,8 @@
     137,
     119
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "49fc4416-9e6e-4500-82cf-92b78a780f73",
@@ -8170,7 +8187,7 @@
    "url": "https://tuktak.kr/portfolio-item/%ed%95%9c%ea%b5%ad%eb%b9%84%ec%9e%84%ec%83%81%ec%8b%9c%ed%97%98%ec%97%b0%ea%b5%ac%ed%9a%8c-2026%eb%85%84-%ec%a0%9c49%ec%b0%a8-%ec%9b%8c%ed%81%ac%ec%88%8d-%eb%9e%a9%ec%bd%a5/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/06/랩콥_03-768x591.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -8186,7 +8203,8 @@
     125,
     126
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "4c996ce6-45e6-4689-9781-547a72bad0f1",
@@ -8194,7 +8212,7 @@
    "url": "https://tuktak.kr/portfolio-item/2026-%ec%83%81%eb%b0%98%ea%b8%b0-ibk-%ec%b0%bd%ea%b3%b5-%eb%8d%b0%eb%aa%a8%eb%8d%b0%ec%9d%b4-ibk%ea%b8%b0%ec%97%85%ec%9d%80%ed%96%89/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/06/IBK2026_01-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -8210,7 +8228,8 @@
     103,
     104
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "273cd96e-8378-4852-9177-6bdde02647a6",
@@ -8218,7 +8237,7 @@
    "url": "https://tuktak.kr/portfolio-item/arista-ai-user-forum-2026-arista/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/06/아리스타_13-768x591.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -8234,7 +8253,8 @@
     103,
     99
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "3a42c1e8-cc72-4242-b679-c29e60ba1a99",
@@ -8242,7 +8262,7 @@
    "url": "https://tuktak.kr/portfolio-item/ai-expo-korea-2026-%ed%95%9c%ea%b5%ad%eb%94%a5%eb%9f%ac%eb%8b%9d/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/05/한국딥러닝_04-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -8258,7 +8278,8 @@
     134,
     135
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "63b49222-bab9-4b82-9b5c-8a19539448ae",
@@ -8266,7 +8287,7 @@
    "url": "https://tuktak.kr/portfolio-item/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/05/미래에셋_01-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -8282,7 +8303,8 @@
     96,
     63
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "46808fd1-010f-47f5-968e-530b846aa0f0",
@@ -8314,7 +8336,7 @@
    "url": "https://tuktak.kr/portfolio-item/2026-%ea%b2%bd%ea%b8%b0%eb%8f%84-%ec%95%bd%ec%82%ac%ed%9a%8c-%ec%a0%95%ea%b8%b0%ed%95%99%ec%88%a0%ec%a0%9c-%ed%8c%9c%ed%94%84%eb%a0%8c%ec%a6%88/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/05/팜프렌즈_02-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -8330,7 +8352,8 @@
     113,
     75
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "0b83c461-aa5a-4dc3-af17-d013262f551f",
@@ -8338,7 +8361,7 @@
    "url": "https://tuktak.kr/portfolio-item/ax-insights-2026-%ec%95%84%ec%9d%b4%eb%b8%8c%eb%a6%ad%ec%8a%a4/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/05/AX_01-1-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -8354,7 +8377,8 @@
     88,
     73
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "70851417-4edb-4b37-a9ae-e2afc0a6b493",
@@ -8362,7 +8386,7 @@
    "url": "https://tuktak.kr/portfolio-item/%eb%8d%b0%ec%9d%b4%ed%84%b0-%ed%8c%8c%ec%9a%b4%eb%8d%b0%ec%9d%b4%ec%85%98-%ed%8f%ac%eb%9f%bc-%ec%84%b8%ec%9d%bc%ec%a6%88%ed%8f%ac%ec%8a%a4/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/05/데이터_05-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -8378,7 +8402,8 @@
     122,
     118
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "69349b66-59df-4d6a-a442-7ed5dd6b44f8",
@@ -8386,7 +8411,7 @@
    "url": "https://tuktak.kr/portfolio-item/2026-%ec%bd%94%eb%b2%a0-%eb%b2%a0%ec%9d%b4%eb%b9%84%ed%8e%98%ec%96%b4-%ec%83%81%eb%b0%98%ea%b8%b0-%ed%97%ac%ec%8b%9c%ec%8a%a4/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/05/헬시스_09-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -8402,7 +8427,8 @@
     102,
     94
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "8adc2935-811d-4c92-a101-36992c3f86e4",
@@ -8410,7 +8436,7 @@
    "url": "https://tuktak.kr/portfolio-item/defender-summit-2026-%ed%94%8c%eb%a0%88%ec%9d%b8%eb%b9%84%ed%8a%b8/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/04/플레인비트_01-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -8426,7 +8452,8 @@
     116,
     108
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "36b8f80c-fa7d-48dd-8e5b-ec8d9be419c4",
@@ -8434,7 +8461,7 @@
    "url": "https://tuktak.kr/portfolio-item/%eb%8c%80%ed%95%9c%ec%a7%84%eb%8b%a8%ea%b2%80%ec%82%ac%ec%9d%98%ed%95%99%ed%9a%8c-2026%eb%85%84-%ec%b6%98%ea%b3%84%ec%8b%ac%ed%8f%ac%ec%a7%80%ec%97%84-%eb%a7%88%ec%9d%b4%ed%81%ac%eb%a1%9c%eb%94%94/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/04/마이크로디지탈_05-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "컨퍼런스",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -8450,7 +8477,8 @@
     104,
     108
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "c509b800-2ca5-4032-8de6-ad1b0d54e63b",
@@ -8458,7 +8486,7 @@
    "url": "https://tuktak.kr/portfolio-item/f45-%ec%83%81%ec%9d%bc/",
    "image": "https://tuktak.kr/wp-content/uploads/2026/04/F45상일_06-1024x788.png",
    "source": "뚝딱제작소",
-   "category": "미분류",
+   "category": "기본부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -8474,7 +8502,8 @@
     101,
     102
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "1c25cf19-80f6-4817-b485-e321baa9dec1",
@@ -9202,7 +9231,7 @@
    "url": "https://www.uniplan.com/work/en-hama-ifa-2026",
    "image": "https://cms.uniplan.com/images/kKhIU0YGuQS1QMXUNN30w478mbY=/1973/fill-1x1%7Cformat-jpeg/hama_ifa2026_101.jpg",
    "source": "Uniplan",
-   "category": "미분류",
+   "category": "목공부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -9217,30 +9246,8 @@
     89,
     96
    ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "3fe60f45-62a2-4b25-803f-a0a74f308469",
-   "title": "Oppo Findx10 Series Global Launch",
-   "url": "https://www.uniplan.com/work/en-oppo-findx10-series-global-launch",
-   "image": "https://cms.uniplan.com/images/SKNWz0a9QulTfsNFsr4A02v61to=/2015/fill-1x1%7Cformat-jpeg/IMG_7377.JPG",
-   "source": "Uniplan",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "sha256": "37142767c330de896200bf1af500cdc76cdc330fb35adc72c2bd9a8912dedda3",
-   "phash": "0000000000000000000000000000000000000000000000000000000000000000",
-   "color": [
-    134,
-    110,
-    86
-   ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "a53434fe-5b1a-4ecc-b644-86d3d046bcca",
@@ -9248,7 +9255,7 @@
    "url": "https://www.uniplan.com/work/en-roborock-ifa-2026",
    "image": "https://cms.uniplan.com/images/YHHepqkl9eTBQ0GLeWk6EzYXkBE=/1991/fill-1x1%7Cformat-jpeg/KEVJ3460.png",
    "source": "Uniplan",
-   "category": "미분류",
+   "category": "목공부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -9263,7 +9270,8 @@
     91,
     98
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "6fbc6b80-d675-45ae-9265-76bedd62657d",
@@ -9271,7 +9279,7 @@
    "url": "https://www.uniplan.com/work/en-aeg-ifa-2026",
    "image": "https://cms.uniplan.com/images/RMp9w6DfqCNeDlbBNaZTWZ-YkVw=/1982/fill-1x1%7Cformat-jpeg/WEB-AEG_ElectroluxIFA2026-0152-PhotoSaskiaUppenkamp.jpg",
    "source": "Uniplan",
-   "category": "미분류",
+   "category": "목공부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -9286,7 +9294,8 @@
     26,
     25
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "0f7177e8-542f-4ac4-93ec-0a7aeb5b8077",
@@ -9294,7 +9303,7 @@
    "url": "https://www.uniplan.com/work/en-anker-ifa-2026",
    "image": "https://cms.uniplan.com/images/uWXh5z5Ys7EqeqTsjFnc0CH8Kc0=/1992/fill-1x1%7Cformat-jpeg/IMG_5982.JPG",
    "source": "Uniplan",
-   "category": "미분류",
+   "category": "목공부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -9309,7 +9318,8 @@
     93,
     118
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "7616a6a5-b10d-4357-a81a-b4fca2369a3f",
@@ -9317,7 +9327,7 @@
    "url": "https://www.uniplan.com/work/en-oppo-lol-world-championship-chengdu-booth",
    "image": "https://cms.uniplan.com/images/4cRr2oknJJIfWeyKxPj7Dt1TpAo=/1870/fill-1x1%7Cformat-jpeg/21355729.jpg",
    "source": "Uniplan",
-   "category": "미분류",
+   "category": "목공부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -9332,7 +9342,8 @@
     124,
     128
    ],
-   "hashAlgo": "dhash256"
+   "hashAlgo": "dhash256",
+   "categoryFrom": "source"
   },
   {
    "id": "bd5122ed-7474-4d6c-a872-d5c625fd683d",
@@ -9340,7 +9351,7 @@
    "url": "https://www.uniplan.com/work/en-hisense-ces",
    "image": "https://cms.uniplan.com/images/QViEfzFQZJlVbWh_EmVanueSYqQ=/1889/fill-1x1%7Cformat-jpeg/IMG_2592_xXqvMPd.JPG",
    "source": "Uniplan",
-   "category": "미분류",
+   "category": "목공부스",
    "tags": [],
    "note": "",
    "favorite": false,
@@ -9356,7 +9367,8 @@
     115
    ],
    "hashAlgo": "dhash256",
-   "dupOf": "0f7177e8-542f-4ac4-93ec-0a7aeb5b8077"
+   "dupOf": "0f7177e8-542f-4ac4-93ec-0a7aeb5b8077",
+   "categoryFrom": "source"
   },
   {
    "id": "16727079-0890-4032-8b71-602a9f3ef546",
@@ -9372,8 +9384,7 @@
    "review": true,
    "createdAt": "2026-11-15T04:14:26.304Z",
    "separateFrom": [],
-   "publishedAt": "2026-08-07T17:00:31.000Z",
-   "ogTriedAt": "2026-11-15T04:14:26.304Z"
+   "publishedAt": "2026-08-07T17:00:31.000Z"
   },
   {
    "id": "76cdbd26-426f-4cbd-8131-cc178268dbea",
@@ -9389,8 +9400,7 @@
    "review": true,
    "createdAt": "2026-11-15T04:14:26.304Z",
    "separateFrom": [],
-   "publishedAt": "2026-08-07T15:10:46.000Z",
-   "ogTriedAt": "2026-11-15T04:14:26.304Z"
+   "publishedAt": "2026-08-07T15:10:46.000Z"
   },
   {
    "id": "df61a09f-8c52-42b5-af8b-d9c12b7613c7",
@@ -9406,8 +9416,7 @@
    "review": true,
    "createdAt": "2026-11-15T04:14:26.304Z",
    "separateFrom": [],
-   "publishedAt": "2026-08-07T12:42:47.000Z",
-   "ogTriedAt": "2026-11-15T04:14:26.304Z"
+   "publishedAt": "2026-08-07T12:42:47.000Z"
   },
   {
    "id": "6ff7a2cb-84e6-42e6-9e88-891d0f3bfefc",
@@ -9423,104 +9432,7 @@
    "review": true,
    "createdAt": "2026-11-15T04:14:26.304Z",
    "separateFrom": [],
-   "publishedAt": "2026-03-19T11:04:11.000Z",
-   "ogTriedAt": "2026-11-15T04:14:26.304Z"
-  },
-  {
-   "id": "035e26c1-2be6-4bed-b315-3f02282b571a",
-   "title": "Texas antique and design show unveils new exhibition building made from salvaged materials",
-   "url": "https://www.dezeen.com/2026/11/13/marburger-farm-antique-design-show/",
-   "image": "https://static-2026.dezeen.com/uploads/2026/11/Marburger_sq1-1024x1024.jpg",
-   "source": "Dezeen",
-   "category": "목공부스",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2026-11-13T08:00:00.000Z",
-   "sha256": "dc0ef7f60416a13399fc1286fff0054505764915523e71e118b228606fb28000",
-   "phash": "d7cf073ce0f3738f0f777cf8ded007e30ad3c4f338f264f318dbd9dbe51b7cd3",
-   "color": [
-    141,
-    133,
-    128
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "c38cb236-980c-4e41-9d2a-76c9478d4dbd",
-   "title": "Recycled-plastic plinths hold furniture at \"secret\" Barragán house in Mexico City",
-   "url": "https://www.dezeen.com/2026/10/14/design-week-mexico-2026-creative-immersions-casa-ortega/",
-   "image": "https://static-2026.dezeen.com/uploads/2026/10/casa-ortega-creative-immersions-france-mexico-design-week-mexico-2026_dezeen_2364_sq-1-1024x1024.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2026-10-14T11:20:00.000Z",
-   "sha256": "51ddec35ae632dde22b339ba1b5bddf368f245b73066203f4ecce12401287547",
-   "phash": "1ca00ca289578d8d89a68c8494ccecc864d099604de0657811cc5270728cca44",
-   "color": [
-    92,
-    88,
-    69
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "f61c1243-55b0-4b05-aa99-b54bcd2456c7",
-   "title": "SESC Pompéia indoor pond replicated for Lina Bo Bardi exhibition in Shanghai",
-   "url": "https://www.dezeen.com/2026/08/19/lina-bo-bardi-exhibition-open-architecture-shanghai/",
-   "image": "https://static-2026.dezeen.com/uploads/2026/08/open-architecture-lina-bo-bardi-The-Poetics-of-Survival_dezeen_2364_col_sq2-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2026-08-19T05:00:43.000Z",
-   "sha256": "ee9061bbc3b14f75876066840c77a057e3ae038351b27123be58248d32cc6720",
-   "phash": "4cbc669043a161c744ca0e1c67382d913b9633ae379275836620ee807d80f0c2",
-   "color": [
-    116,
-    114,
-    113
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "abf1f5d4-32ba-4944-9247-c163a3d98bcf",
-   "title": "Theaster Gates focuses on \"human kindness\" with ceramics exhibition for Prada Home",
-   "url": "https://www.dezeen.com/2026/05/01/theaster-gates-chawan-cabinet-exhibition-prada-home-milan/",
-   "image": "https://static-2026.dezeen.com/uploads/2026/04/prada-chawan-cabinet-theaster-gates-milan-design-week_dezeen_2364_sq-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2026-05-01T08:00:15.000Z",
-   "sha256": "b85fec13c1dcb4365d6f369216189a5f6ffe67d8d28d3be19fa1048b342b80f2",
-   "phash": "7fff7ffe7cfc7ded7cda60d260c830c06b5a3b788729483c640f2703138013c0",
-   "color": [
-    132,
-    103,
-    85
-   ],
-   "hashAlgo": "dhash256"
+   "publishedAt": "2026-03-19T11:04:11.000Z"
   },
   {
    "id": "5b2a81b5-99ef-4851-af52-221f8005c273",
@@ -9543,30 +9455,6 @@
     121,
     132,
     123
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "9eee1bc5-ac3b-4faf-ae7e-c731557891e1",
-   "title": "\"Exhibitions are becoming multimedia and interactive driven\" says BeWunder managing director Felix Erdmann",
-   "url": "https://www.dezeen.com/2026/02/04/exhibitions-multimedia-interactive-bewunder/",
-   "image": "https://static-2026.dezeen.com/uploads/2025/12/exhibitions-multimedia-interactive-bewunder-saudi-pavilion-square-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2026-02-04T08:00:03.000Z",
-   "sha256": "80092612a6e2dc5f1d3f9a7acc829710fc746bba445bf28cc37f5306b1d9abd4",
-   "phash": "8f108fc60b86099e199f199f108f108d908f108fb29b349a28562cb62c362c32",
-   "color": [
-    40,
-    33,
-    36
    ],
    "hashAlgo": "dhash256"
   },
@@ -9595,174 +9483,6 @@
    "hashAlgo": "dhash256"
   },
   {
-   "id": "080915f4-109e-4c68-8a5b-078c4fdc9a69",
-   "title": "\"If a client wants a specific style, it's kind of boring to us\" says Open Architecture",
-   "url": "https://www.dezeen.com/2025/09/29/open-architecture-interview/",
-   "image": "https://static-2026.dezeen.com/uploads/2025/09/open-architecture-interview-chinese-sustainability-_dezeen_1704_col_4-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2025-09-29T09:45:07.000Z",
-   "sha256": "2b0258e62bba236ac13dab676837ceac177d41000663da3208532e4935ad9f25",
-   "phash": "35afb062346bba6f8a6d9a4cbad4f1c9b669b7693b617373f23b3c7ca7cc7e59",
-   "color": [
-    116,
-    106,
-    94
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "789b6151-dd86-40d4-9691-a63fbe89a144",
-   "title": "David Bowie's \"cut-up lyrics\" inform dedicated space at V&A East Storehouse",
-   "url": "https://www.dezeen.com/2025/09/11/david-bowie-centre-va-east-storehouse-london/",
-   "image": "https://static-2026.dezeen.com/uploads/2025/09/sq-david-bowie-centre-va-east-storehouse-london_dezeen_2364_col_0-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2025-09-11T09:30:32.000Z",
-   "sha256": "d65e933a482c8b4de1e0fdb86236d4119a7384b47b7eaffd4f3e7c3bb5b48f5a",
-   "phash": "2608078c0bec6378293059314761676347f1d78dd7add7bdc7b98db185b106b1",
-   "color": [
-    91,
-    41,
-    38
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "7d67ba63-13cc-4aeb-97f1-c74f9816113d",
-   "title": "AAU Anastas creates exhibition design for show of Palestinian antiquities",
-   "url": "https://www.dezeen.com/2025/06/25/aau-anastas-treasures-rescued-from-gaza-exhibition-design/",
-   "image": "https://static-2026.dezeen.com/uploads/2025/06/aau-anastas-treasures-from-gaza-exhibition-design_dezeen_2364_sq-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2025-06-25T07:00:31.000Z",
-   "sha256": "d525c445ee331f15472c03fe593d858ad54d0f522b3edf5e15c8ac10d9726a69",
-   "phash": "3c87dce00fa40fa01fe11fe11f7037f2b75bb44f949786608600844095608fad",
-   "color": [
-    111,
-    108,
-    105
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "7072ee61-3bd5-4669-b93f-d44aee508e3e",
-   "title": "Togo centres its \"eccentric\" modernist architecture in Venice Biennale debut",
-   "url": "https://www.dezeen.com/2025/05/08/togo-venice-architecture-biennale-debut-2025/",
-   "image": "https://static-2026.dezeen.com/uploads/2025/05/togo-pavilion-venice-architecture-biennale-2025-studio-neida_dezeen_2364_sq-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2025-05-08T07:00:45.000Z",
-   "sha256": "7edb8bb681d1c95f8005ef608481c8aff07fcc6f857f2b50e9f444bd254ac31f",
-   "phash": "9e66ce58e658e135f136f830d9f1d935db5fd935f9b0d9f45b7b0779a73f873f",
-   "color": [
-    137,
-    130,
-    123
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "64871b9d-3741-4bd8-9d02-f9165a459260",
-   "title": "OMA uses \"abstract architectural language\" for scenography of Islamic Arts Biennale",
-   "url": "https://www.dezeen.com/2025/02/17/oma-islamic-arts-biennale-2025/",
-   "image": "https://static-2026.dezeen.com/uploads/2025/02/sq-oma-islamic-arts-biennale_dezeen_2364_col_0-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2025-02-17T06:00:54.000Z",
-   "sha256": "f0425c1fabf3e9b5109dd0b554f7e7db0be419efa92027b5bcf7b3162cbb5900",
-   "phash": "da343b9811b921fb83f6827c127f125e1e5f1e5f0e7d0e3d1f3d39bd3fbc7f99",
-   "color": [
-    135,
-    126,
-    120
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "196004d4-76fa-436a-ae58-c53ad108ad19",
-   "title": "Dezeen selects standout American design and architecture events from November",
-   "url": "https://www.dezeen.com/2024/11/29/american-design-exhibitions-november-2024/",
-   "image": "https://static-2026.dezeen.com/uploads/2024/11/american-exhibition-round-up-november-2024_dezeen_2364_sq-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2024-11-29T18:00:15.000Z",
-   "sha256": "70e0013ffaababd9dc007b020038ec4b6e32b0410cd58be735af94f64dd1e2fd",
-   "phash": "19fd917dccfbedd36cf40ebe8e3a8e984a3ece2ec6469f94990c1a4b4a1c6c3c",
-   "color": [
-    97,
-    101,
-    68
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "8a33d473-7d08-4e1a-a55a-d480a2eea323",
-   "title": "Mesh veil wraps exhibition space in China by Trace Architecture Office",
-   "url": "https://www.dezeen.com/2024/03/05/inbetween-pavilion-trace-architecture-office/",
-   "image": "https://static-2026.dezeen.com/uploads/2024/01/metal-mesh-inbetween-pavilion-china-trace-architecture-square_dezeen_2364_col_1-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2024-03-05T11:30:08.000Z",
-   "sha256": "66f27cfb5b1f3e9f95001c139adca8e07eb39cbdfa4ad98927d8e2a679e1b5d9",
-   "phash": "306d901f6386648ea18ea19aa1daa49aa498e01af67a267d07003d3e7d39bb10",
-   "color": [
-    80,
-    93,
-    108
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
    "id": "979544f4-a253-45ca-87b0-64635e48c373",
    "title": "Eight ways that Stockholm Furniture Fair exhibitors cut down on waste",
    "url": "https://www.dezeen.com/2024/02/22/stockholm-furniture-fair-exhibition-stands/",
@@ -9783,366 +9503,6 @@
     168,
     137,
     109
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "0101a306-36c8-4be5-b3a6-57ac4ea4e0c7",
-   "title": "Medprostor stacks firewood for Ljubljana design biennial exhibition",
-   "url": "https://www.dezeen.com/2023/11/27/medprostor-bio27-super-vernaculars-ljubljana-design-biennial-exhibition/",
-   "image": "https://static-2026.dezeen.com/uploads/2023/11/bio27-super-vernaculars_dezeen_sq1-852x852.jpg",
-   "source": "Dezeen",
-   "category": "목공부스",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2023-11-27T15:00:48.000Z",
-   "sha256": "05a8faa6d1fbb00990d6d6c7085b159a2f796e772af863f384b8081e29058077",
-   "phash": "bebb1f689380b7b216eca6a6e226d976d13cf404e40ce687e08362816e813f81",
-   "color": [
-    149,
-    135,
-    125
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "26b3611d-bb90-4a6c-bd19-339bd509335a",
-   "title": "Tom Dixon retrospective exhibition opens at Themes & Variations in London",
-   "url": "https://www.dezeen.com/2023/11/23/tom-dixon-metalhead-retrospective-exhibition-themes-variations-london/",
-   "image": "https://static-2026.dezeen.com/uploads/2023/11/sq-tom-dixon-metalhead-retrospective-exhibition-themes-variations-london_dezeen_2364_col_0-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2023-11-23T09:30:13.000Z",
-   "sha256": "d871e6221395e09952e42ccd410bfa43fe1df01b86511f472bcd77074182da14",
-   "phash": "1496359669af492ca8cf988ed80ed82cdcecdc6ddc6dcaccca6dda7ddcf6dcc2",
-   "color": [
-    122,
-    128,
-    110
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "e789d671-d9c1-4a42-98ee-2c83db8250bf",
-   "title": "Daisuke Yamamoto presents recycled steel chairs under Milan railway arch",
-   "url": "https://www.dezeen.com/2023/11/16/daisuke-yamamoto-flow-recycled-steel-chairs-future-landfill-exhibition-milan/",
-   "image": "https://static-2026.dezeen.com/uploads/2023/11/flow-exhibition_daisuke-yamamoto_dezeen_sq1-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2023-11-16T09:00:28.000Z",
-   "sha256": "57c434370c1baae6adab1a62aa1cee85d3e9b3f48a6de87725ac3b73c51215c7",
-   "phash": "0c3c1c791cf69cecc8c810da0196019711d119ae2d8d4278039d0c1e047c1818",
-   "color": [
-    115,
-    105,
-    97
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "2b94180d-78bc-447a-a97e-ab5ae2dfc8e7",
-   "title": "D/Dock creates immersive exhibition space inside 19th-century Amsterdam gasworks",
-   "url": "https://www.dezeen.com/2023/11/15/d-dock-westergasfabriek-fabrique-des-lumieres-amsterdam/",
-   "image": "https://static-2026.dezeen.com/uploads/2023/11/sq-ddock-fabrique-des-lumieres-amsterdam_dezeen_2364_col_0-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2023-11-15T06:00:17.000Z",
-   "sha256": "d40db080152b19073df267674d23408256ef22e79e9eb4dbebdf82cb5df62012",
-   "phash": "335367110b26ca27e7187cc26cc62f66a66eb13af07ad35a61636535cceccb66",
-   "color": [
-    42,
-    51,
-    51
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "51302153-2763-48af-b330-de94bc1f80a7",
-   "title": "School of Tomorrow exhibition addresses climate crisis in playful classroom setting",
-   "url": "https://www.dezeen.com/2023/10/12/school-of-tomorrow-exhibition-kinetic-singapore-design-week/",
-   "image": "https://static-2026.dezeen.com/uploads/2023/10/School-of-Tomorrow-exhibition-Kinetic-Singapore-Design-Week-2023_dezeen_05-sq-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2023-10-12T05:00:22.000Z",
-   "sha256": "4c92a2bb5c69236ea2c1e7321a17820cda1606b5da31bc3dcfaf79ca3ced727a",
-   "phash": "79a70fbf45fe58f558f59ce518fd3179033e0b3c433c55740773174d374c0427",
-   "color": [
-    83,
-    100,
-    87
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "6f1bb227-ff72-4aff-b527-1f09e587e121",
-   "title": "Gallery Fumi marks 15th anniversary with design exhibition informed by biology",
-   "url": "https://www.dezeen.com/2023/09/13/gallery-fumi-15-anniversary-growth-and-form-exhibition/",
-   "image": "https://static-2026.dezeen.com/uploads/2023/09/sq-gallery-fumi-15-anniversary-growth-and-form-exhibition_dezeen_2364_col_0-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2023-09-13T05:00:12.000Z",
-   "sha256": "b8dd273075038c385d946c82e63bdff9c9282a1d67bbcd6a175742546e9ba188",
-   "phash": "07d806f80d60856086f0066006202722336023849a90583018b0c86862c03853",
-   "color": [
-    198,
-    190,
-    177
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "1f60d887-525b-4aaf-8942-874cbd6686fa",
-   "title": "Hassell creates six metre-high Design Wall to showcase innovative products at NGV",
-   "url": "https://www.dezeen.com/2023/07/06/hassell-design-wall-2023-innovative-products-ngv/",
-   "image": "https://static-2026.dezeen.com/uploads/2023/06/016414_N2_award-1-SQ-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2023-07-06T05:00:00.000Z",
-   "sha256": "4829f03d6d6475b7e30f7546b5ff5b99d804d5c8bc9c36336c27d60d6f55eab9",
-   "phash": "926cffa0b333ecb2ccb2ccb20cb38ca68ca6acb3ccb18cb2ca324b2dccb2ccb0",
-   "color": [
-    151,
-    127,
-    105
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "832bbd4b-cc55-4ab5-99e3-8d31f1e1de4a",
-   "title": "Asteroid City exhibition immerses visitors in Wes Anderson's Americana film sets",
-   "url": "https://www.dezeen.com/2023/06/23/wes-andersons-asteroid-city-exhibition-180-the-strand-london/",
-   "image": "https://static-2026.dezeen.com/uploads/2023/06/hero-wes-andersons-asteroid-city-exhibition-180-the-strand-london_dezeen_2364_col_sq1.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2023-06-23T09:00:13.000Z",
-   "sha256": "319f0876ae01cece24983e422a094e8cd28e2e72c60017b5f98fecb60b093f80",
-   "phash": "b53a337a938193819391939dc235f12a3726a9519991a515b6e6b2ea335e2499",
-   "color": [
-    138,
-    130,
-    118
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "3dfda6e4-2a99-4463-9c15-b1b19c52c423",
-   "title": "Largest-ever Norman Foster retrospective opens at Centre Pompidou in Paris",
-   "url": "https://www.dezeen.com/2023/05/18/norman-foster-retrospective-exhibition-centre-pompidou-paris/",
-   "image": "https://static-2026.dezeen.com/uploads/2023/05/sq-norman-foster-exhibition-paris-france_dezeen_2364_col_0-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2023-05-18T08:00:55.000Z",
-   "sha256": "dce23f5a7b54e24cee71e23e8a07d8693b3ccc1530e099d695a3a07c84f78a26",
-   "phash": "97e7c9ece790b362fe02f9e2b3f0e730cb39c77c671f273e9f3ccf79e3d970f9",
-   "color": [
-    118,
-    109,
-    105
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "075682cf-9f46-4afe-b2d0-ac936154e009",
-   "title": "Triennale Milano brings together iconic works of Italian design at Museo del Design Italiano",
-   "url": "https://www.dezeen.com/2023/04/20/triennale-milano-reopens-museo-del-design-italiano-milan-design-week-2023/",
-   "image": "https://static-2026.dezeen.com/uploads/2023/04/museo-del-design-italiano-triennale-milano-redesign-milan-design-week-2023_dezeen_2364_sq-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2023-04-20T09:40:15.000Z",
-   "sha256": "6c8a278440d1d3a63185623fd2daa7a37fdd075b7f082de9bdeb43a68132e89d",
-   "phash": "6f76bffeffd8ffd89aeb4a8458d719d01634921e5cc64cc5b3f8b8ff70e3c630",
-   "color": [
-    168,
-    165,
-    163
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "d11c53c6-2786-488c-bbfc-5a70e25f4110",
-   "title": "Designmuseum Danmark exhibition asks visitors to \"think about what kind of future we want\"",
-   "url": "https://www.dezeen.com/2023/02/28/designmuseum-denmark-exhibition-future-design/",
-   "image": "https://static-2026.dezeen.com/uploads/2023/02/the-future-is-present-designmuseum-denmark-exhibition-sq2-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2023-02-28T09:00:46.000Z",
-   "sha256": "4bbd5599b1d639c26c87d7a4e287dd8d3ced66ca48a759b220d53e360133f99d",
-   "phash": "365a18750cf75c7e5cf048f64876447e44768c5686fe069f0cef38eaf7d0f600",
-   "color": [
-    108,
-    90,
-    75
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "8e08f78c-e9e2-4b9d-8dc6-07c9146cc549",
-   "title": "Trio of mirror-clad installations reflect history of Czech city",
-   "url": "https://www.dezeen.com/2023/02/15/mirrors-zlin-czech-republic-loom-on-the-moon/",
-   "image": "https://static-2026.dezeen.com/uploads/2023/02/loom-on-the-moon-mirrors-of-zlin-boysplaynice-24-copy-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2023-02-15T06:00:32.000Z",
-   "sha256": "33f2f240bc29b58b4dc1d942b933dcc4be02f3602b6aa74bd97fc6b1906b415b",
-   "phash": "477f59ff193f25dd7273c2649e4db09d609d0f9d6fb5ec3d1adc0dde956910f1",
-   "color": [
-    143,
-    137,
-    130
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "3e6d2863-a972-4f4b-a0d4-90fb1c0998fb",
-   "title": "OMA creates \"stage for storytelling\" for Dior exhibition in Tokyo",
-   "url": "https://www.dezeen.com/2023/02/10/oma-scenography-dior-exhibition-japan-storytelling/",
-   "image": "https://static-2026.dezeen.com/uploads/2023/02/oma-christian-dior-designer-of-dreams-exhibition-design-tokyo-sq-1-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2023-02-10T06:00:28.000Z",
-   "sha256": "7373f8b70cc316cfa4c048f4b6c93307de69bef087455ff9d58dd66d7d66dfdd",
-   "phash": "019809a00b809f401bd01ae80bf25abd193e3953096b1c69745d073f1f7b147f",
-   "color": [
-    52,
-    47,
-    38
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "db442c78-41de-440c-8d3b-c8bef64eaca3",
-   "title": "Space Popular reinterprets Aldo Rossi's architectural theories for the metaverse",
-   "url": "https://www.dezeen.com/2023/01/06/search-history-space-popular-exhibition-maxxi/",
-   "image": "https://static-2026.dezeen.com/uploads/2023/01/space-popular-search-history-maxxi_dezeen_2364_sq_0-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2023-01-06T10:00:44.000Z",
-   "sha256": "a6ddc001e05e9903ef85f489296128845450a2a7f5d1826e696f62261177a4c1",
-   "phash": "89788686b5c699403d687b797b79db694eec5f785ee95b33586109e44921c961",
-   "color": [
-    146,
-    101,
-    77
-   ],
-   "hashAlgo": "dhash256"
-  },
-  {
-   "id": "93b778d3-4626-40b8-a1f7-a1503f628e5d",
-   "title": "Design + Health exhibition in Valencia highlights importance of design in the health sector",
-   "url": "https://www.dezeen.com/2022/12/15/design-health-exhibition-world-design-capital-valencia/",
-   "image": "https://static-2026.dezeen.com/uploads/2022/12/design-and-health_dezeen_2364_col_0-1-852x852.jpg",
-   "source": "Dezeen",
-   "category": "미분류",
-   "tags": [],
-   "note": "",
-   "favorite": false,
-   "manual": false,
-   "review": true,
-   "createdAt": "2026-11-15T04:14:26.304Z",
-   "separateFrom": [],
-   "publishedAt": "2022-12-15T07:00:50.000Z",
-   "sha256": "f9a795ceadb1d2bc32975d7577e46c8fddc7779c532adaab87259450bdda1b1d",
-   "phash": "134464ca70c970f4e46a8768e4698d6a9b68bc7038b3d89cd4e8893016068800",
-   "color": [
-    74,
-    192,
-    247
    ],
    "hashAlgo": "dhash256"
   }

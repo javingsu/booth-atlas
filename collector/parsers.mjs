@@ -171,7 +171,7 @@ export function parseWpJson(text) {
   return list.map((p) => {
     const media = p?._embedded?.['wp:featuredmedia']?.[0];
     const sizes = media?.media_details?.sizes || {};
-    const image = (sizes.large || sizes.medium_large || sizes.full || {}).source_url || media?.source_url || '';
+    const image = (sizes.large || sizes.medium_large || sizes.full || {}).source_url || media?.source_url || firstImage(p?.content?.rendered || '', p?.link) || '';
     return {
       title: stripTags(decodeEntities(p?.title?.rendered || '')),
       url: String(p?.link || ''),

@@ -44,11 +44,11 @@ const tistory = `<rss version="2.0"><channel><item><title>SETEC 프랜차이즈�
 const prodesign = `<a href="/sub/indenpendent.html?modal=789"><img src="/_wp/data/bbs/bbs01/789/20261028_1.jpg" alt="2026 소부장뿌리기술대전 선익시스템 목공부스"></a>
 <a href="/"><img src="/img/logo.png" alt="프로디자인그룹"></a>`;
 const tuktakWp = JSON.stringify([
-  { link: 'https://tuktak.kr/portfolio-item/hp-amplify-elevate-2026-hp/', date_gmt: '2026-08-14T02:42:24', title: { rendered: 'HP Amplify Elevate 2026, HP' }, excerpt: { rendered: '<p>라이트 패브릭 부스</p>' }, _embedded: { 'wp:featuredmedia': [{ source_url: 'https://tuktak.kr/wp-content/uploads/2026/08/HP_04.png', media_details: { sizes: { large: { source_url: 'https://tuktak.kr/wp-content/uploads/2026/08/HP_04-1024x800.png' } } } }] } },
+  { link: 'https://tuktak.kr/portfolio-item/fixture-expo-2099/', date_gmt: '2099-01-14T02:42:24', title: { rendered: 'Fixture Expo 2099, 테스트' }, excerpt: { rendered: '<p>라이트 패브릭 부스</p>' }, _embedded: { 'wp:featuredmedia': [{ source_url: 'https://tuktak.kr/wp-content/uploads/2099/01/FX.png', media_details: { sizes: { large: { source_url: 'https://tuktak.kr/wp-content/uploads/2099/01/FX-1024x800.png' } } } }] } },
   { link: 'https://tuktak.kr/portfolio-item/no-title/', title: { rendered: '' } },
 ]);
-const donworks = `<a href="/portfolio/project-39632295-mwbgumx2"><img src="https://spamcydtxzuelpsjbvkp.supabase.co/storage/v1/object/public/hr-blog/a.webp" alt="허니콤보드 전시부스, 허니콤보드 가벽의 설치 조건을 살피는 이유"></a>`;
-const uniplan = `<a href="/work/en-roborock-ifa-2026"><img src="https://cms.uniplan.com/images/YHH=/1991/fill-1x1%7Cformat-jpeg/KEVJ3460.png" alt=""></a>
+const donworks = `<a href="/portfolio/project-fixture-2099"><img src="https://spamcydtxzuelpsjbvkp.supabase.co/storage/v1/object/public/hr-blog/fixture.webp" alt="허니콤보드 테스트 부스, 가벽 배치를 검토하는 이유"></a>`;
+const uniplan = `<a href="/work/en-fixturebrand-ifa-2099"><img src="https://cms.uniplan.com/images/FX=/1/fill-1x1%7Cformat-jpeg/fixture.png" alt=""></a>
 <a href="/work/en-zott-100"><img src="https://cms.uniplan.com/images/TWA=/1944/fill-1x1%7Cformat-jpeg/zott.jpeg" alt=""></a>`;
 const dezeen = `<rss><channel><item><title>Note Design Studio builds brick stand for Vestre at Stockholm Furniture Fair</title><link>https://www.dezeen.com/2026/02/10/vestre-stand/</link><description><![CDATA[<img src="https://static.dezeen.com/uploads/2026/02/vestre.jpg"> stand]]></description></item>
 <item><title>Ceramics exhibition opens in Shanghai museum</title><link>https://www.dezeen.com/2026/02/11/ceramics/</link><description><![CDATA[<img src="https://static.dezeen.com/uploads/2026/02/c.jpg"> museum show]]></description></item></channel></rss>`;
@@ -164,7 +164,7 @@ await t('수집기 통합 (실제 라이브러리 사본 + 가짜 fetch)', async
     'https://www.exteum.com/': exteum,
     'https://bluepointllc.com/portfolio/': bluepoint,
     'https://rss.blog.naver.com/seouladcom88.xml': emptyFeed,
-    'https://pro-design.co.kr/': prodesign,
+    'https://pro-design.co.kr/main/main.html': prodesign,
     'https://tuktak.kr/wp-json/wp/v2/portfolio?per_page=30&_embed=wp:featuredmedia': tuktakWp,
     'https://d-onworks.com/portfolio': donworks,
     'https://www.uniplan.com/work': uniplan,
@@ -177,14 +177,14 @@ await t('수집기 통합 (실제 라이브러리 사본 + 가짜 fetch)', async
   const { added, errors, lib } = await run({ fetchImpl, libPath, now: '2026-11-16T00:07:00.000Z', log: (s) => logs.push(s) });
   const titles = added.map((x) => x.title).sort();
   assert.deepEqual(titles, ['Island booth with a timber canopy and lit product shelving', '新展示会2026 木工ブース', '블럭부스 견적을 볼 때 확인할 항목', '코리아빌드 2026 | 원목 루버를 살린 9×6m 목공부스 · GROUP MCO', '트러스 I 새로운고객',
-    '2026 소부장뿌리기술대전 선익시스템 목공부스', 'HP Amplify Elevate 2026, HP', '허니콤보드 전시부스, 허니콤보드 가벽의 설치 조건을 살피는 이유', 'Roborock IFA 2026', 'Note Design Studio builds brick stand for Vestre at Stockholm Furniture Fair'].sort());
+    '2026 소부장뿌리기술대전 선익시스템 목공부스', 'Fixture Expo 2099, 테스트', '허니콤보드 테스트 부스, 가벽 배치를 검토하는 이유', 'Fixturebrand IFA 2099', 'Note Design Studio builds brick stand for Vestre at Stockholm Furniture Fair'].sort());
   const pd = added.find((x) => x.source === '프로디자인그룹');
   assert.equal(pd.url, 'https://pro-design.co.kr/sub/indenpendent.html?modal=789');
   assert.equal(pd.image, 'https://pro-design.co.kr/_wp/data/bbs/bbs01/789/20261028_1.jpg');
   assert.equal(pd.category, '목공부스');
   const tk = added.find((x) => x.source === '뚝딱제작소');
-  assert.equal(tk.image, 'https://tuktak.kr/wp-content/uploads/2026/08/HP_04-1024x800.png');
-  assert.equal(tk.publishedAt, '2026-08-14T02:42:24.000Z');
+  assert.equal(tk.image, 'https://tuktak.kr/wp-content/uploads/2099/01/FX-1024x800.png');
+  assert.equal(tk.publishedAt, '2099-01-14T02:42:24.000Z');
   const dw = added.find((x) => x.source === '디온웍스');
   assert.equal(dw.category, '복합·기타');
   assert.equal(dw.categoryFrom, 'source');
