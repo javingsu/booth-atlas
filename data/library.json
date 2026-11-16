@@ -1,7 +1,7 @@
 {
  "version": 2,
- "revision": 102,
- "updatedAt": "2026-11-15T04:21:35.093Z",
+ "revision": 103,
+ "updatedAt": "2026-11-16T01:26:51.901Z",
  "migratedFrom": {
   "origin": "https://booth-atlas-studio.brawnylyric38.chatgpt.site",
   "exportedAt": "2026-11-14T18:37:23.155Z",
@@ -38,8 +38,8 @@
    "name": "네이버 RSS · groupmco88",
    "url": "https://rss.blog.naver.com/groupmco88.xml",
    "status": "공개 RSS 확인 · 이미지가 없으면 원문 링크",
-   "count": 14,
-   "newThisRun": 0
+   "count": 15,
+   "newThisRun": 1
   },
   {
    "name": "네이버 RSS · epicdesigngroup_01",
@@ -109,7 +109,7 @@
    "url": "https://pro-design.co.kr/main/main.html",
    "status": "공개 포트폴리오 확인",
    "count": 55,
-   "newThisRun": 25
+   "newThisRun": 0
   },
   {
    "name": "뚝딱제작소",
@@ -184,6 +184,13 @@
   }
  ],
  "runs": [
+  {
+   "at": "2026-11-16T01:26:51.901Z",
+   "added": 1,
+   "updated": 0,
+   "total": 513,
+   "errors": []
+  },
   {
    "at": "2026-11-15T04:21:35.093Z",
    "added": 25,
@@ -12087,6 +12094,30 @@
     199,
     195,
     186
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "50d4e7a7-d725-4921-acab-2a1af5435a33",
+   "title": "G-FAIR KOREA 2026 더바른푸드 | 자체 장비 실사출력부터 현장 시공까지 · GROUP MCO",
+   "url": "https://blog.naver.com/groupmco88/224463146162",
+   "image": "https://blogthumb.pstatic.net/MjAyNjExMDNfMzYg/MDAxNzkzNjY2NTgyMzQ3.s_wBHd0PCGSSpLHaDr8kzhastCQy3xLbKomtmponf_Eg.Ab2Dj91wBumqJQqfAI16W8qz5J8rzUOaD9lFYwJYcaAg.JPEG/P20261028_151239_46F85.JPG?type=s3",
+   "source": "네이버 블로그",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-16T01:26:51.901Z",
+   "separateFrom": [],
+   "publishedAt": "2026-11-16T01:00:00.000Z",
+   "sha256": "f2c9ab642f53b2546b1cf4e1c70da57a14415d03747be7872c36c53dcc6a15f5",
+   "phash": "b883bf2176b16b8c49ec18723a1e4a6f9abc0f349f349be5fb84d9141c0c0848",
+   "color": [
+    112,
+    105,
+    93
    ],
    "hashAlgo": "dhash256"
   }
