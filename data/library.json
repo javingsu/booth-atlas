@@ -1,7 +1,7 @@
 {
  "version": 2,
- "revision": 103,
- "updatedAt": "2026-11-16T01:26:51.901Z",
+ "revision": 104,
+ "updatedAt": "2026-11-23T01:14:34.794Z",
  "migratedFrom": {
   "origin": "https://booth-atlas-studio.brawnylyric38.chatgpt.site",
   "exportedAt": "2026-11-14T18:37:23.155Z",
@@ -38,15 +38,15 @@
    "name": "네이버 RSS · groupmco88",
    "url": "https://rss.blog.naver.com/groupmco88.xml",
    "status": "공개 RSS 확인 · 이미지가 없으면 원문 링크",
-   "count": 15,
-   "newThisRun": 1
+   "count": 21,
+   "newThisRun": 6
   },
   {
    "name": "네이버 RSS · epicdesigngroup_01",
    "url": "https://rss.blog.naver.com/epicdesigngroup_01.xml",
    "status": "공개 RSS 확인 · 이미지가 없으면 원문 링크",
-   "count": 54,
-   "newThisRun": 0
+   "count": 56,
+   "newThisRun": 2
   },
   {
    "name": "네이버 RSS · lf-exhibition",
@@ -101,8 +101,8 @@
    "name": "네이버 RSS · seouladcom88",
    "url": "https://rss.blog.naver.com/seouladcom88.xml",
    "status": "공개 RSS 확인 · 서울부스애드컴",
-   "count": 50,
-   "newThisRun": 0
+   "count": 55,
+   "newThisRun": 5
   },
   {
    "name": "프로디자인그룹",
@@ -122,8 +122,8 @@
    "name": "디온웍스 · 허니콤보드 부스",
    "url": "https://d-onworks.com/portfolio",
    "status": "공개 포트폴리오 확인",
-   "count": 60,
-   "newThisRun": 0
+   "count": 63,
+   "newThisRun": 3
   },
   {
    "name": "Uniplan",
@@ -184,6 +184,13 @@
   }
  ],
  "runs": [
+  {
+   "at": "2026-11-23T01:14:34.794Z",
+   "added": 16,
+   "updated": 0,
+   "total": 529,
+   "errors": []
+  },
   {
    "at": "2026-11-16T01:26:51.901Z",
    "added": 1,
@@ -12118,6 +12125,390 @@
     112,
     105,
     93
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "f347e95e-6dab-402a-b3aa-f0f39496ffc3",
+   "title": "WCPEC-9 등록데스크·무인데스크 | 접수 공간 조성",
+   "url": "https://blog.naver.com/groupmco88/224483088072",
+   "image": "https://blogthumb.pstatic.net/MjAyNjExMTlfMTYw/MDAxNzk1MDUxMTkyNzY4.bjoCy7Z0eob9SLHaJbK7XP-dyGVfTa-rNMN_x-Q1dI8g.EangRIXV9v_TqiHYIz_AQvjeCW9A212qhxh2YpSmTkcg.JPEG/wcpec-registration-desks-02.jpg?type=s3",
+   "source": "네이버 블로그",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-23T01:14:34.794Z",
+   "separateFrom": [],
+   "publishedAt": "2026-11-23T01:00:00.000Z",
+   "sha256": "a412fab7b86a863558859dc2b8dbb3c94b1c5162cb45d04d28360e11a7d7a6e9",
+   "phash": "01bf2c6d8fef8d4e198725dba31bb31ba33385b78df7c21ed4ebd46bc015847f",
+   "color": [
+    103,
+    107,
+    86
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "85fdf287-6aee-442c-8c9d-9364bef377fc",
+   "title": "WCPEC-9 유니젯 전시부스 | 18×6m 12부스 시공",
+   "url": "https://blog.naver.com/groupmco88/224483086818",
+   "image": "https://blogthumb.pstatic.net/MjAyNjExMTlfMTMx/MDAxNzk1MDUxMTQwMDA5.gLF9XE5iVxuziluCEM_KgZeYjDUPMyKWKWog-yJW1N8g.xxKEUfW7ROAl9CYBVeEwbE8jIp5nh5gBySRV_yMqeeMg.JPEG/wcpec-unijet-booth-08.jpg?type=s3",
+   "source": "네이버 블로그",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-23T01:14:34.794Z",
+   "separateFrom": [],
+   "publishedAt": "2026-11-22T01:00:00.000Z",
+   "sha256": "c0a318504b6b76dbc9febcbddb5f898d45fa6fe551209d6524576a80bf6a41af",
+   "phash": "3ac3e52cda985ab9c4f840bd556a30422eafad878da789a14711cd8696976694",
+   "color": [
+    109,
+    106,
+    101
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "ca41ad06-4fbd-41f9-bf77-388cff7a3786",
+   "title": "WCPEC-9 행사 입구 게이트 | 대전컨벤션센터 설치 사례",
+   "url": "https://blog.naver.com/groupmco88/224483085743",
+   "image": "https://blogthumb.pstatic.net/MjAyNjExMTlfMTAy/MDAxNzk1MDUxMDczNzQ1.40i20MvbtRzodRcufwuurGOfDBu_GvlyplaFDCGkV0Ug.kcpxihZhS1FEHty13OdnoliHrmZxmAnnGb5TzSnYsUog.JPEG/wcpec-entrance-gate-01.jpg?type=s3",
+   "source": "네이버 블로그",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-23T01:14:34.794Z",
+   "separateFrom": [],
+   "publishedAt": "2026-11-21T01:00:00.000Z",
+   "sha256": "01b3e8560779f4239017af1df1df5ff2e77b7f1aecb7bb517e6dd4ef9a7f6e52",
+   "phash": "6da66dd655324ad3dad21ab768c168c1f8e1fd81fdc16ce160f960f160f141f9",
+   "color": [
+    132,
+    129,
+    121
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "52ec84f4-f82b-441e-b75a-2f14c774f38e",
+   "title": "WCPEC-9 대전홍보관 | 15×6m 10부스 현장 조성",
+   "url": "https://blog.naver.com/groupmco88/224483084095",
+   "image": "https://blogthumb.pstatic.net/MjAyNjExMTlfMzAw/MDAxNzk1MDUwOTk1OTIx.Pu8hTIHtuvqHTfHVU9aSk8psV-yMzF6aqgTMA35AtD0g.Coso8OYjCGcEx6QpOn60QGqCn_8XXBekOYh8ZmUE4cAg.JPEG/wcpec-daejeon-pavilion-01.jpg?type=s3",
+   "source": "네이버 블로그",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-23T01:14:34.794Z",
+   "separateFrom": [],
+   "publishedAt": "2026-11-20T01:00:00.000Z",
+   "sha256": "1c94793cc0bc91118fbc2fcb6fbca1430820da532a884a4a1ac004f8965b929d",
+   "phash": "1f32072991c279f1b3f6bebf637f618f25c554c555d56190c01502dd44ee26e2",
+   "color": [
+    114,
+    116,
+    109
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "41f05aa5-a207-4fa1-8b01-9f85322c789b",
+   "title": "대전 세계태양광총회 WCPEC-9 | 1~5부스 타입별 기본부스 조성",
+   "url": "https://blog.naver.com/groupmco88/224483082195",
+   "image": "https://blogthumb.pstatic.net/MjAyNjExMTlfMTAy/MDAxNzk1MDUwODkwNjg5.o1Zhs9-_UcW7mWtmZc-11xTNCuKYfa55oQtd_cbAUSkg.uOjKAwWVDbIpyGS6JsKKRfF1wGwDRfwJXjZWP39nvfIg.JPEG/wcpec-standard-booths-01.jpg?type=s3",
+   "source": "네이버 블로그",
+   "category": "기본부스",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": false,
+   "createdAt": "2026-11-23T01:14:34.794Z",
+   "separateFrom": [],
+   "publishedAt": "2026-11-19T01:15:54.000Z",
+   "sha256": "0497eccf80bc187cf13dc1408b0202d8c7e95b66c51865b75ee16d8dd103f2da",
+   "phash": "71de6db6699f289e1ab442fb053b623c3cd918df389d5c51587338f1346d8721",
+   "color": [
+    119,
+    124,
+    111
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "a74f5af3-a74e-4c21-9d04-796e6b0abe6e",
+   "title": "2026 로보월드 신산이엔지 | 킨텍스 6×6m·4부스 조립식 블럭부스 시공 사례",
+   "url": "https://blog.naver.com/groupmco88/224481589438",
+   "image": "https://blogthumb.pstatic.net/MjAyNjExMThfMjEx/MDAxNzk0OTYyMzM4MzMw.0X6H-iK2ZhYEd-znS9JhzChBR1oulQo-2TFsIfSHEf0g.OoHDxN6-wBFkhkTI5llCcKctxTSQzBAf8NO1TTA4rtEg.JPEG/P20261103_160457_6D087.JPG?type=s3",
+   "source": "네이버 블로그",
+   "category": "블럭부스",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": false,
+   "createdAt": "2026-11-23T01:14:34.794Z",
+   "separateFrom": [],
+   "publishedAt": "2026-11-18T00:39:55.000Z",
+   "sha256": "89ff83b6cd78ed66a3b8524c7d69aa3a1a2ecea83bdc665e80c8a373c0dfb04c",
+   "phash": "4452c5c2c32ed66fa1d9827d0f1a1399183f5d3c635ca18c49cc2acc92ce0d8c",
+   "color": [
+    86,
+    90,
+    93
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "8a0e4f80-3b79-40c6-aa71-c061603e17f4",
+   "title": "[학술대회 부스] 의료 AI심포지움 / 보툴리늄 필러 실리프팅연구회 학술행사 패브릭 부스 설치 예시 소개 (에픽디자인그룹)",
+   "url": "https://blog.naver.com/epicdesigngroup_01/224482769585",
+   "image": "https://blogthumb.pstatic.net/MjAyNjExMTlfMjkx/MDAxNzk1MDE5MTcxMzQ5.PNrsHYY-6d2E0todvW4U9139WC76yeSADa07qvcL2ekg.aa8qdP1F5JEqBG3PldmiZ7TA4IWBq_4t1mGYbF30Ozgg.JPEG/KakaoTalk_20261003_205816651_08.jpg?type=s3",
+   "source": "네이버 블로그",
+   "category": "기본부스",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": false,
+   "createdAt": "2026-11-23T01:14:34.794Z",
+   "separateFrom": [],
+   "publishedAt": "2026-11-18T16:28:06.000Z",
+   "sha256": "af3c66ff3b0994b7ce0a5fe2144b6c56ab5a935eedfeee94b0e2c8509b6dd223",
+   "phash": "02318a152509069b869a07bc19ac078c09bc29bc399608b0181a399638b60874",
+   "color": [
+    70,
+    91,
+    88
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "9d094561-c480-4197-8385-4305d25321f1",
+   "title": "패브릭 제작 및 납품 사례｜사무실 회의 공간 활용과 행사 패브릭 제작 (에픽디자인그룹 행사, 이벤트, 쇼룸, 사무실 설계 제작)",
+   "url": "https://blog.naver.com/epicdesigngroup_01/224479434355",
+   "image": "https://blogthumb.pstatic.net/MjAyNjExMTZfMjU4/MDAxNzk0ODIwNjQ5NTQ4.UTtWv7V5Dla0YoCGOS7eOuI4qebECOkE1cNNFw8STRgg.wdkJE3yFmuoYSc5IFyeQ4h96sPeTretDKsILnTgi2oAg.JPEG/KakaoTalk_20261001_204146840_04.jpg?type=s3",
+   "source": "네이버 블로그",
+   "category": "기본부스",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": false,
+   "createdAt": "2026-11-23T01:14:34.794Z",
+   "separateFrom": [],
+   "publishedAt": "2026-11-16T09:20:19.000Z",
+   "sha256": "cd24868d8e17c0a1775d0467224378b4f6c96a09a33db89abad5a37000b50c15",
+   "phash": "034e0804f800ffff253f65ae641f7c1ff80ca00f940f547d57defe1680190078",
+   "color": [
+    57,
+    91,
+    134
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "db3b4c8c-509e-49de-bbf9-1ec936c43e0c",
+   "title": "곡선형 백월과 블루 조명이 돋보이는 하이리움산업 전시부스 제작｜킨텍스 H2 MEET 2026",
+   "url": "https://blog.naver.com/seouladcom88/224478798926",
+   "image": "https://blogthumb.pstatic.net/MjAyNjExMTZfMjA0/MDAxNzk0NzkyNjY0MTg2.rfj3JHlVm-RnYoGccqEHP-3HsvgAfo1eVe-LFeypZakg.RGrErRIP2-woSoPNOA_p1mc96qSixzeiv4nFC-o9ZuQg.JPEG/%BC%AD%BF%EF%BA%CE%BD%BA%BE%D6%B5%E5%C4%C4_%BB%E7%C1%F8_20261103_1.jpg?type=s3",
+   "source": "네이버 블로그",
+   "category": "목공부스",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-23T01:14:34.794Z",
+   "separateFrom": [],
+   "publishedAt": "2026-11-23T00:00:00.000Z",
+   "sha256": "8135764f7e59049049535a7a4786be2e2fb689f6d047d171a6879e1545ecc075",
+   "phash": "43d0d0d91e0e1dc51cd908d76c174f4316961bc39d828cb3e303cdcbcccb6cc9",
+   "color": [
+    84,
+    88,
+    103
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "f52cfaec-8737-4487-a3c2-d2128eedea69",
+   "title": "[옥타늄부스] 안양대학교 | 2026 ARI EXPO",
+   "url": "https://blog.naver.com/seouladcom88/224483793308",
+   "image": "https://blogthumb.pstatic.net/MjAyNjExMTlfNjQg/MDAxNzk1MDgzNTY1Njc5.qNKzSlYUWVl_X2alVs_eNTD3xiVLAUtmRG4uFocvwt4g.bvQKAA23q4CUwrMDX-pM4vL48-sM6wdSjju0egOs9fog.JPEG/KakaoTalk_20261116_164105194.jpg?type=s3",
+   "source": "네이버 블로그",
+   "category": "기본부스",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": false,
+   "createdAt": "2026-11-23T01:14:34.794Z",
+   "separateFrom": [],
+   "publishedAt": "2026-11-20T01:00:00.000Z",
+   "sha256": "87f9fe2ab9bcf29a9283c5469a51b5851aafbb3ddeaeac402b057099aa46d8e8",
+   "phash": "b695b695b6ea4b72040b31b6f3763c63f80be09f0393298f19cf79b844cf03f0",
+   "color": [
+    100,
+    101,
+    103
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "f01507d1-0500-4845-813b-7d097a4d8dfa",
+   "title": "코엑스 | AI EXPO | 에스티씨네트웍스 시공 사례",
+   "url": "https://blog.naver.com/seouladcom88/224483665815",
+   "image": "https://blogthumb.pstatic.net/MjAyNjExMTlfMTcy/MDAxNzk1MDc3NjM5ODkw.mpGkHlUj9mKIU901ig-eyR0AOs4sEqgLdj91xYndC1kg.-nIoZCkgUqj7O380ZFYRTCExEpKNsBxpMnuzcv4YKYAg.JPEG/6_418Ud018svc1fvdba2qmwksg_dxp2k4.jpeg?type=s3",
+   "source": "네이버 블로그",
+   "category": "목공부스",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-23T01:14:34.794Z",
+   "separateFrom": [],
+   "publishedAt": "2026-11-19T08:36:38.000Z",
+   "sha256": "607851f06f35548e82ef4ede1c8bfad410c9fd9229c740020b954b258239d8a0",
+   "phash": "271b1e8df946f31b3f164ec3cee39793e133b7f9b6b8b68cbd4cb7003f073f03",
+   "color": [
+    107,
+    93,
+    86
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "455c7f18-7e9e-447c-b6c7-63ea82213a6c",
+   "title": "DDP | 컬리뷰티페스타 | 카이지루시코리아 시공 사례",
+   "url": "https://blog.naver.com/seouladcom88/224482286940",
+   "image": "https://blogthumb.pstatic.net/MjAyNjExMThfMTM2/MDAxNzk0OTkxNjIwMzQ2.GVTfYOeqVGoUHTWWH1KwrJlJa_YGua0yWAWid6CZ23Eg.RDnkSYnUNUzZCrlJFC61WT_HIpvB4UwQHDn7pZntQHcg.JPEG/%BC%AD%BF%EF%BA%CE%BD%BA%BE%D6%B5%E5%C4%C4_%BB%E7%C1%F8_20261111_2.jpg?type=s3",
+   "source": "네이버 블로그",
+   "category": "미분류",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-23T01:14:34.794Z",
+   "separateFrom": [],
+   "publishedAt": "2026-11-18T08:51:51.000Z",
+   "sha256": "29222d34f2a2b023ac769a9858727569c330b279d12c40c857dc5f91684126b3",
+   "phash": "04c385d3050de3059368da4ccdcca9ced9c8f9cc198415bc0b1c0e1691b39272",
+   "color": [
+    141,
+    130,
+    129
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "a4281ace-07ab-48b0-800a-4097493c921e",
+   "title": "광주김대중컨벤션센터 | BIXPO | 송암시스콤 시공 사례",
+   "url": "https://blog.naver.com/seouladcom88/224479042490",
+   "image": "https://blogthumb.pstatic.net/MjAyNjExMTZfMTI3/MDAxNzk0ODAyNTcwNDE3.fWKvb5QQb1m3WHcqsh8uKhfCGGO-XXo7jhXTgnBhlNEg.hHHjr_4UpU_7M9rUtgK9BQ6FUTs1PLPPb-dm1vhqVd4g.PNG/image.png?type=s3",
+   "source": "네이버 블로그",
+   "category": "목공부스",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-23T01:14:34.794Z",
+   "separateFrom": [],
+   "publishedAt": "2026-11-16T04:35:41.000Z",
+   "sha256": "48ebb4be1e14d109f37d25762638df910520c0bf2f5996fd8c606181086409e9",
+   "phash": "b6cd1b8f3a9b33a815b9ae318cb205a2eca7e6b0e138e469e713a39bcce54215",
+   "color": [
+    108,
+    118,
+    122
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "8347a8bc-2315-4d4b-be56-95c5d701e29e",
+   "title": "울산과학기술원, 로비에 딥테크 쇼룸 전시부스를 조성하는 이유",
+   "url": "https://d-onworks.com/portfolio/project-7bcd555b-mwonq6jd",
+   "image": "https://spamcydtxzuelpsjbvkp.supabase.co/storage/v1/object/public/hr-blog/2026_10_30_7bcd555b-a08a-4b8b-9eb0-a08ee7fb731b/images/photo1_20261103_947108.jpg",
+   "source": "디온웍스",
+   "category": "복합·기타",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-23T01:14:34.794Z",
+   "separateFrom": [],
+   "categoryFrom": "source",
+   "sha256": "105f16eada2d95eca9f62ce60f7a5a8c9ab90c4d559baf6fce42b420b998de5a",
+   "phash": "0000c309e0013e029ea0c6b976b131b870cc707d707f307e2cba60f1a3b26311",
+   "color": [
+    131,
+    135,
+    138
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "edd21281-659b-4d65-ad4c-f9f4b3189abc",
+   "title": "국립해양박물관, 오션아카데미 행사 가벽을 동선에 맞춰 설계하는 이유",
+   "url": "https://d-onworks.com/portfolio/project-c53d13e1-mwlh6ve6",
+   "image": "https://spamcydtxzuelpsjbvkp.supabase.co/storage/v1/object/public/hr-blog/2026_10_30_c53d13e1-648e-4858-9f2b-3ad5b38237fa/images/photo1_20261030_324435.jpg",
+   "source": "디온웍스",
+   "category": "복합·기타",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-23T01:14:34.794Z",
+   "separateFrom": [],
+   "categoryFrom": "source",
+   "sha256": "2141fa9e18a69f823319a4631fefad51569f56227999a0e927368b7293c74920",
+   "phash": "e06961a111681858983f5c7b30dc24dc333931e8f0f8303e243e01365933794c",
+   "color": [
+    145,
+    136,
+    128
+   ],
+   "hashAlgo": "dhash256"
+  },
+  {
+   "id": "71bad468-4879-4b0b-b319-b777d0bc6217",
+   "title": "2026 PAC, 국립부경대학교 교류회 동선을 나누는 이유",
+   "url": "https://d-onworks.com/portfolio/project-c4909fcc-mwlh1ao1",
+   "image": "https://spamcydtxzuelpsjbvkp.supabase.co/storage/v1/object/public/hr-blog/2026_10_28_c4909fcc-fe74-4f73-9acf-b8c6e7a5365b/images/photo1_20261029_615485.jpg",
+   "source": "디온웍스",
+   "category": "복합·기타",
+   "tags": [],
+   "note": "",
+   "favorite": false,
+   "manual": false,
+   "review": true,
+   "createdAt": "2026-11-23T01:14:34.794Z",
+   "separateFrom": [],
+   "categoryFrom": "source",
+   "sha256": "e0329bd390e1ba7ab4ca0692d1da1fb6e083850f52d8844f8a49a89989af6382",
+   "phash": "801f208f63fffcfffc06fcfaf96219660ce1fec81e49695d6499f198fb988f02",
+   "color": [
+    108,
+    110,
+    107
    ],
    "hashAlgo": "dhash256"
   }
